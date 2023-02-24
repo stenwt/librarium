@@ -14,20 +14,27 @@ import PointsOfInterest from 'shared/components/common/PointOfInterest';
 
 # Overview
 
-Palette supports various kinds of updates to running clusters, such as upgrade of Kubernetes version, upgrade of add-on versions, the addition of new add-ons, removing existing ones, etc. Based on the nature of the change, one of the following two mechanisms can be used to apply cluster updates to the cluster.
+Palette provides functionality for upgrading Kubernetes clusters and add-ons, as well as the addition or removal of add-ons.
+
+There are two methods for applying cluster updates:
+- Cluster profile based updates
+- Configuration overrides
+
+These methods are described below.
 
 # Cluster profile based updates
 
 <InfoBox>
 
-**Kubernetes Version Upgrades:** We recommend our users to go for single-step upgrades of Kubernetes minor versions. E.g., Kubernetes version 1.18.x is to be updated to 1.19.x, not a direct upgrade to 1.20.x
+**Kubernetes version upgrades:** We recommend users perform single-step upgrades of Kubernetes minor versions. For example, to upgrade a cluster from Kubernetes version 1.18.x to 1.20.x, users should first upgrade to 1.19.x, and then to 1.20.x.
 
-**Kubernetes Version Downgrades:** We do not recommend downgrading the Kubernetes versions.
+**Kubernetes version downgrades:** We do not recommend downgrading the Kubernetes versions.
 
 </InfoBox>
 
+Fundamental changes to cluster definitions, such as upgrading Kubernetes versions, installing new packs, uninstalling packs, and updating default pack configurations, are initiated by altering the associated **cluster profiles**. Changes to cluster profiles trigger **update notifications** for all associated clusters.
 
-Fundamental changes to the cluster’s definition, such as upgrading Kubernetes versions, installing new packs, uninstalling previously installed packs, and updating default pack configuration, are initiated through the cluster profile. These changes result in update notifications on all the clusters that are instantiated from the cluster profile. Update notifications consist of detailed information about all the changes applied to the profile since the initial installation or the previous update. In addition, users can update the clusters individually at an appropriate time. 
+Update notifications consist of detailed information describing the changes applied to the profile since the initial installation or the previous update. In addition, users can update clusters individually at an appropriate time. 
 
 <InfoBox>
 
