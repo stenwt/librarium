@@ -30,7 +30,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"]
+    locales: ["en"],
   },
   presets: [
     [
@@ -38,31 +38,47 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: "docs/docs-content",
           routeBasePath: "/",
+          showLastUpdateTime: true,
+
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css")
-        }
-      })
-    ]
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+      }),
+    ],
   ],
 
   plugins: [
+    async function myPlugin(context, options) {
+      // ...
+      return {
+        name: "my-plugin",
+        async loadContent() {
+          // ...
+        },
+        async contentLoaded({ content, actions }) {
+          console.log(content);
+        },
+        /* other lifecycle API */
+      };
+    },
     [
       // @ts-ignore
       () => ({
         configureWebpack() {
           return {
-            devtool: "source-map"
+            devtool: "source-map",
           };
-        }
+        },
       }),
-      { id: "source-map" }
+      { id: "source-map" },
     ],
     [
       "@docusaurus/plugin-ideal-image",
@@ -71,19 +87,16 @@ const config = {
         max: 1035,
         min: 640,
         steps: 2,
-        disableInDev: false
-      }
+        disableInDev: false,
+      },
     ],
-    [
-      require.resolve("docusaurus-plugin-image-zoom"),
-      { id: "docusaurus-plugin-image-zoom" }
-    ],
+    [require.resolve("docusaurus-plugin-image-zoom"), { id: "docusaurus-plugin-image-zoom" }],
     [
       "@docusaurus/plugin-client-redirects",
       {
-        redirects: [...redirects]
-      }
-    ]
+        redirects: [...redirects],
+      },
+    ],
   ],
 
   themeConfig:
@@ -95,7 +108,7 @@ const config = {
         title: "",
         logo: {
           alt: "Spectro cloud docs",
-          src: "img/logo_landscape_for_white.png"
+          src: "img/logo_landscape_for_white.png",
         },
         items: [
           { to: "/introduction", label: "Docs", position: "right" },
@@ -103,25 +116,25 @@ const config = {
           {
             to: "https://console.spectrocloud.com/",
             label: "Back to Spectro Cloud",
-            position: "right"
-          }
-        ]
+            position: "right",
+          },
+        ],
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme
+        darkTheme: darkCodeTheme,
       },
       zoom: {
         selector: ".markdown :not(em) > img",
         background: {
           light: "rgb(255, 255, 255)",
-          dark: "rgb(50, 50, 50)"
+          dark: "rgb(50, 50, 50)",
         },
         config: {
           // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
-        }
-      }
-    })
+        },
+      },
+    }),
 };
 
 module.exports = config;

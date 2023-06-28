@@ -7,7 +7,7 @@ import CategorySelector from "./CategorySelector";
 
 const searchOptions = {
   threshold: 0.5,
-  keys: ["fields.title"]
+  keys: ["fields.title"],
 };
 
 export default function Technologies({ data }) {
@@ -44,9 +44,7 @@ export default function Technologies({ data }) {
 
     if (selectedCategory !== "all") {
       technologies =
-        technologies.filter(({ fields }) =>
-          fields.category.includes(selectedCategory)
-        ) || [];
+        technologies.filter(({ fields }) => fields.category.includes(selectedCategory)) || [];
     }
 
     return technologies;

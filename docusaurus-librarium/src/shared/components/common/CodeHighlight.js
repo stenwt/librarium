@@ -21,11 +21,10 @@ function CodeHighlight({ code, language = "json", theme = prismTheme }) {
               );
               if (deprecatedLineIndex >= 0) {
                 const content = line[deprecatedLineIndex].content;
-                line[deprecatedLineIndex].content =
-                  content.substring(0, content.length - 12) + '"';
+                line[deprecatedLineIndex].content = content.substring(0, content.length - 12) + '"';
                 line.splice(deprecatedLineIndex + 2, 0, {
                   content: "deprecated",
-                  types: ["string"]
+                  types: ["string"],
                 });
               }
               return (
