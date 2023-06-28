@@ -5,6 +5,17 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const redirects = require("./redirects");
 
+function generatePacksData(allContent) {
+  const packsData = allContent["docusaurus-plugin-content-docs"].default.loadedVersions[0].docs
+    .filter((doc) => {
+      return doc.frontMatter.type === "integration";
+    })
+    .map((doc) => {
+      console.log(doc);
+      return { fields: { ...doc.frontMatter } };
+    });
+}
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Spectro Cloud",
@@ -59,12 +70,10 @@ const config = {
     async function myPlugin(context, options) {
       // ...
       return {
-        name: "my-plugin",
-        async loadContent() {
-          // ...
-        },
-        async contentLoaded({ content, actions }) {
-          console.log(content);
+        name: "plugin-mdx-frontend-matter",
+        async contentLoaded({ allContent, actions }) {
+          const { setGlobalData } = actions;
+          generatePacksData(allContent);
         },
         /* other lifecycle API */
       };
@@ -72,6 +81,7 @@ const config = {
     [
       // @ts-ignore
       () => ({
+        name: "plugin-enable-source-map",
         configureWebpack() {
           return {
             devtool: "source-map",

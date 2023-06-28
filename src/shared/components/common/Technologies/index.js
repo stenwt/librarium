@@ -59,6 +59,7 @@ const searchOptions = {
 };
 
 export default function Technologies({ data }) {
+  console.log(data);
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [searchValue, setSearchValue] = useState("");
 
