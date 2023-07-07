@@ -12,7 +12,7 @@ logoUrl: 'https://cloudanix-assets.s3.amazonaws.com/static/cloudanix-logo-p.png'
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Cloudanix

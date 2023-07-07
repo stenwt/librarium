@@ -11,7 +11,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Deploy an Application using Palette Dev Engine
@@ -141,7 +141,7 @@ Next, click the radio button **Deploy in An Existing Palette Virtual Cluster**. 
 
   
 
-:::warn
+:::caution
 
   
 
@@ -170,7 +170,7 @@ When the application is deployed and ready for use, the **Services** row on the 
   
   
 
-:::warn
+:::caution
 
   
   
@@ -362,7 +362,7 @@ Name the app `multiple-app-scenario`, select the app profile **hello-universe-co
 
   
 
-:::warn
+:::caution
 
   
 
@@ -807,7 +807,7 @@ Log in to [Palette](https://console.spectrocloud.com), navigate to the left **Ma
 
 <br />
 
-:::warn
+:::caution
 
   
 It takes between one to three minutes for DNS to properly resolve the public load balancer URL. We recommend waiting a few moments before clicking on the service URL to prevent the browser from caching an unresolved DNS request.
@@ -1198,7 +1198,7 @@ Click on the UI’s service URL for port **8080** to access the Hello Universe a
 
 <br />
 
-:::warn
+:::caution
 
   
 It takes between one to three minutes for DNS to properly resolve the public load balancer URL. We recommend waiting a few moments before clicking on the service URL to prevent the browser from caching an unresolved DNS request.

@@ -11,7 +11,7 @@ logoUrl: 'https://registry.spectrocloud.com/v1/falco/blobs/sha256:4e37461d0a3195
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 

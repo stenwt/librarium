@@ -10,7 +10,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Enable Kubernetes API Audit Logging
@@ -28,7 +28,7 @@ The guidance on this page is based on the upstream Kubernetes documentation and 
 
 <br />
 
-:::warn
+:::caution
 
 Enabling audit logging causes the API server to consume more memory, as it needs to store additional context for each request to facilitate auditing. Memory consumption depends on the audit logging configuration.
 

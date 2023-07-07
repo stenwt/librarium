@@ -2,9 +2,10 @@
 title: "Registries and Packs"
 metaTitle: "Registries and Packs"
 metaDescription: "Learn about Packs, how to use and combine Packs, and how to create your Pack ."
-icon: "nodes"
 hideToC: false
 fullWidth: false
+sidebar_custom_props:
+    icon: "nodes"
 ---
 
 

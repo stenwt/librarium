@@ -11,7 +11,7 @@ logoUrl: 'https://registry.spectrocloud.com/v1/kubernetes-microk8s/blobs/sha256:
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # MicroK8s Overview
@@ -72,7 +72,7 @@ If you are using or want to use a different kubectl command, you can configure i
 
 <br />
 
-:::warn
+:::caution
 
 ### Caveat for MicroK8s with AWS EBS pack
 

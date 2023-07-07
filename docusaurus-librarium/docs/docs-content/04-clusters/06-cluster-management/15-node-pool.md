@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Overview
@@ -18,7 +18,7 @@ You have the ability to update node pools for active clusters and the option to 
 
 <br />
 
-:::warn
+:::caution
 
 Ensure you exercise caution when modifying node pools. We recommend creating a [backup](/clusters/cluster-management/backup-restore) before you make a change in the event a configuration change causes an issue.
 

@@ -2,15 +2,16 @@
 title: "Glossary"
 metaTitle: "Palette Glossary"
 metaDescription: "Palette Glossary"
-icon: "about"
 hideToC: false
 fullWidth: false
+sidebar_custom_props:
+  icon: "about"
 ---
 
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Glossary

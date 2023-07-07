@@ -2,9 +2,10 @@
 title: "Audit Logs"
 metaTitle: "Spectro Cloud user audit logs"
 metaDescription: "Spectro Cloud logs for every event occurring under a user for every Kubernetes cluster"
-icon: "admin"
 hideToC: false
 fullWidth: false
+sidebar_custom_props:
+    icon: "admin"
 ---
 
 
@@ -41,7 +42,7 @@ For certain resources like the Cluster Profile, users can associate a custom upd
 
 Spectro Cloud users can now push the compliance, management, operational, and risk audit logs to the AWS CloudTrail. This enables continuous monitoring, security analysis, resource tracking, and troubleshooting of the workload cluster using the event history.
 
-:::warn
+:::caution
 An AWS account with cloud trail created is the prerequisite.
 
 The permissions listed need to be enabled for CloudWatch.

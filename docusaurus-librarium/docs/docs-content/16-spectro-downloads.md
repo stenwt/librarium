@@ -2,15 +2,16 @@
 title: "Downloads"
 metaTitle: "Spectro Downloads Artifacts"
 metaDescription: "Spectro Cloud Artifacts Downloads "
-icon: "cloud-download-alt"
 hideToC: false
 fullWidth: false
+sidebar_custom_props:
+    icon: "cloud-download-alt"
 ---
 
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 

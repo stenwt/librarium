@@ -2,15 +2,16 @@
 title: "Clusters"
 metaTitle: "Creating clusters on Palette"
 metaDescription: "The methods of creating clusters for a speedy deployment on any CSP"
-icon: "clusters"
 hideToC: false
 fullWidth: false
+sidebar_custom_props:
+    icon: "clusters"
 ---
 
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 

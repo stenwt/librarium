@@ -10,7 +10,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 
 # Overview
 

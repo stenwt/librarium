@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 
@@ -141,7 +141,7 @@ The following steps need to be performed to provision a new cluster:
     || **Worker Network**: Select the worker network from the dropdown.
     |**Update worker pools in parallel**| Check the box to concurrently update the worker pools.|
 
-:::warn
+:::caution
 
 If the Palette [cloud account](/clusters/public-cloud/azure#creatinganazurecloudaccount) is created with **Disable Properties** and the cluster option 
 **Static Placement** is enabled, the network information from your Azure account will not be imported to Palette. You can manually input the information for the **Control Plane Subnet** and the **Worker Network**.

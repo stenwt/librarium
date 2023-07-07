@@ -2,9 +2,10 @@
 title: "Self-Hosted Installation"
 metaTitle: "Self-Hosted Installation"
 metaDescription: "Understanding, installing and operating Spectro Cloud's Enterprise Self-Hosted variant."
-icon: "warehouse"
 hideToC: false
 fullWidth: false
+sidebar_custom_props:
+    icon: "warehouse"
 ---
 
 

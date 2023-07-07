@@ -11,7 +11,7 @@ logoUrl: 'https://registry.dev.spectrocloud.com/v1/csi-gcp/blobs/sha256:af4cf792
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 

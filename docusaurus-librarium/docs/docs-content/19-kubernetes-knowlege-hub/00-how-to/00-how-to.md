@@ -1,0 +1,26 @@
+---
+title: "How to"
+metaTitle: "Get started with a quick Kubernetes How-to"
+metaDescription: "Kubernetes School with How to"
+hideToC: false
+fullWidth: false
+hiddenFromNav: false
+sidebar_custom_props:
+    icon: "book"
+---
+
+
+
+
+import PointsOfInterest from '@site/src/components/PointOfInterest';
+import Tooltip from "@site/src/components/Tooltip";
+
+# How To
+
+Learn about core Kubernetes concepts and how you can apply them on Spectro Cloud Palette.
+
+# Core Kubernetes
+- [How To Retrieve Images from a Private Registry in Kubernetes](/kubernetes-knowlege-hub/how-to/how-to-retrieve-images-from-private-registry)
+
+  
+<br />

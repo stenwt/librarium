@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Overview
@@ -65,7 +65,7 @@ You can also enable virtual cluster disk backup during the cluster group creatio
     podSecurityStandard: privileged
     ```
 
-:::warn
+:::caution
 
 Setting the `podSecurityStandard` to `privileged` can introduce privilege escalations. We recommend you discuss this with your security system administrator.
 

@@ -177,7 +177,7 @@ kubeadmconfig:
 
 <br />
 
-:::warn
+:::caution
 
 Review the parameter documentation before you make changes to the kubeadm configuration. Improper configurations can cause deployment failures.
 
@@ -518,7 +518,7 @@ kubeadmconfig:
 
 <br />
 
-:::warn
+:::caution
 
 Review the parameter documentation before you make changes to the kubeadm configuration. Improper configurations can cause deployment failures.
 

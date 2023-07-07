@@ -2,15 +2,16 @@
 title: "Workspaces"
 metaTitle: "Creating Workspaces for Spectro Cloud Clusters"
 metaDescription: "The methods of creating Workspaces"
-icon: "workspaces"
 hideToC: false
 fullWidth: false
+sidebar_custom_props:
+    icon: "workspaces"
 ---
 
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 
 # Overview
 

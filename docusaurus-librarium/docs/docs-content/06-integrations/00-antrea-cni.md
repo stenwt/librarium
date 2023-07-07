@@ -11,7 +11,7 @@ logoUrl: 'https://registry.spectrocloud.com/v1/antrea/blobs/sha256:3c5704caf6652
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 
@@ -46,7 +46,7 @@ Antrea leverages [Open vSwitch](https://www.openvswitch.org/) to implement pod n
 
     <br /> 
 
-:::warn
+:::caution
 
 The CIDR IP specified in Palette using the ``podCIDR`` parameter in the Kubernetes manifest always takes precedence. 
     

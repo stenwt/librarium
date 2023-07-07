@@ -2,15 +2,16 @@
 title: "Troubleshooting"
 metaTitle: "Common issues and their solutions"
 metaDescription: "Common issues and their solutions in the deployment of Spectro Cloud Clusters"
-icon: "tools"
 hideToC: false
 fullWidth: false
+sidebar_custom_props:
+    icon: "tools"
 ---
 
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Troubleshooting
@@ -37,7 +38,7 @@ Spectro Cloud maintains an event stream with low-level details of the various or
 
 <br />
 
-:::warn
+:::caution
 
   Due to Spectro Cloud’s reconciliation logic, intermittent errors show up in the event stream. As an example, after launching a node, errors might show up in the event stream regarding being unable to reach the node. However, the errors clear up once the node comes up.<p></p>
   Error messages that persist over a long time or errors indicating issues with underlying infrastructure are an indication of a real problem.

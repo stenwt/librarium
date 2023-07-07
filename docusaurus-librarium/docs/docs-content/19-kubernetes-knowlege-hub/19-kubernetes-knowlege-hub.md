@@ -2,16 +2,17 @@
 title: "Kubernetes Knowledge Hub"
 metaTitle: "Kubernetes Knowledge Hub"
 metaDescription: "Kubernetes Knowledge Hub Respository"
-icon: "bookmark"
 hideToCSidebar: true
 hideToC: true
 fullWidth: true
+sidebar_custom_props:
+    icon: "bookmark"
 ---
 
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Welcome to the Spectro Cloud Knowledge Portal

@@ -10,7 +10,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Overview
@@ -143,7 +143,7 @@ Packs typically contain changes between versions, such as the addition or remova
 
 <br />
 
-:::warn
+:::caution
 
 When updating to a new pack version, these rules apply:
 

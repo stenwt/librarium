@@ -32,7 +32,7 @@ Pack contents are periodically synchronized with Palette.
 
 * [OpenSSL](https://www.openssl.org/source/) if creating a self-signed certificate. Refer to the [Self-Signed Certificates](#self-signed-certificates) section for more guidance.
 
-:::warn
+:::caution
 
 Please ensure that the ports 443 and 80 are exclusively allocated to the registry server and are not in use by other processes.
 
@@ -206,7 +206,7 @@ docker run -d \
 
 <br />
 
-:::warn
+:::caution
 
 Registry servers configured in HTTP mode require the `--insecure` CLI flag when using the Spectro Cloud CLI's `login` command.
 

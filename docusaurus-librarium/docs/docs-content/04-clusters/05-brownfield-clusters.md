@@ -2,15 +2,16 @@
 title: "Brownfield Clusters"
 metaTitle: "Managing brownfield clusters on Palette"
 metaDescription: "Importing and managing brownfield clusters provisioned on any CSP using other orchestration tools"
-icon: "cloud-download-alt"
 hideToC: false
 fullWidth: false
+sidebar_custom_props:
+    icon: "cloud-download-alt"
 ---
 
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 
 # Overview
 
@@ -51,7 +52,7 @@ The name _generic_ implies support will be extended to the generic operations on
 
 - Metrics server (highly recommended for full permissions mode import)
 
-:::warn
+:::caution
 
 While importing EKS clusters, Palette encourages importing Standard clusters over [Autopilot Clusters](https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview).
 
@@ -214,7 +215,7 @@ A cluster stuck in the **Deletion** state can be force deleted by the user throu
 
    - If the **Force Delete Cluster** button is not enabled, wait for 15 minutes. The **Settings** dropdown will give the estimated time for the auto-enabling of the force delete button.
 
-:::warn
+:::caution
 If there are any cloud resources still on the cloud, the user should clean up those resources before going for the force deletion.
 :::
 

@@ -11,7 +11,7 @@ logoUrl: "https://registry.spectrocloud.com/v1/k8s-dashboard/blobs/sha256:2de5d8
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Palette eXtended Kubernetes
@@ -504,7 +504,7 @@ kubeadmconfig:
 
 <TabItem value="Deprecated" label="deprecated">
 
-:::warn
+:::caution
 
 All versions less than v1.23.x are considered deprecated. Upgrade to a newer version to take advantage of new features.
 

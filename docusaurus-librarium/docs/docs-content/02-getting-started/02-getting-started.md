@@ -2,15 +2,16 @@
 title: "Getting Started"
 metaTitle: "Getting Started"
 metaDescription: "Spectro Cloud Getting Started"
-icon: "overview"
 hideToC: false
 fullWidth: false
+sidebar_custom_props:
+    icon: "overview"
 ---
 
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 

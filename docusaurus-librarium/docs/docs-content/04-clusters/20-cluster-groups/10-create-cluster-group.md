@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Create a Cluster Group
@@ -88,7 +88,7 @@ The configuration applied to all virtual clusters launched into the host cluster
 | Storage (per request)        | 10 GiB            | 2 GiB           |
 
 
-:::warn
+:::caution
 
 A virtual cluster requires a minimum of 4 CPU, 4 GiB of memory, and 2 Gib of storage to launch successfully. The default settings in the cluster group virtual cluster configuration YAML file has the following values:
 

@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 
 # Overview
 
@@ -316,13 +316,13 @@ Backups created manually or as part of the schedule are listed under the Backup/
 3. Finally, restore operation can be done to the cluster running on the same project.
 
 
-:::warn
+:::caution
 Some manual steps might be required, when restoring backups to a cluster running on a cloud different from the source cluster. For example, you might need to pre-create a storage class on the cluster before initiating restore procedures:
   For EKS, please specify <b>gp2 storage class</b>.
   For other cloud environments, please specify <b>spectro-storage-class</b>.
 :::
 
-:::warn
+:::caution
 When restoring your backup to a cluster launched using a cloud account different from the one used for the source account, permissions need to be granted before restoration is initiated to the new cluster.  
 :::
 

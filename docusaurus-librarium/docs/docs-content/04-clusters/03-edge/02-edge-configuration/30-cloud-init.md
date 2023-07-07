@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 
 # Cloud-Init Stages
 
@@ -66,7 +66,7 @@ To help you become familiar with the cloud-init stages and better understand how
 
 <br />
 
-:::warn
+:::caution
 
 Remember that the following code snippets are only intended to help you understand how cloud-init can be used to customize the edge host. 
 You can use countless combinations of the Edge Installer and OS cloud-init stages to achieve the desired customization. Check out the Kairos [stages](https://kairos.io/docs/reference/configuration/#stages) resource to learn more about other key terms, options, and advanced examples.

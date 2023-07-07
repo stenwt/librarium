@@ -12,7 +12,7 @@ logoUrl: 'https://registry.spectrocloud.com/v1/external-dns/blobs/sha256:1bfd6dc
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 

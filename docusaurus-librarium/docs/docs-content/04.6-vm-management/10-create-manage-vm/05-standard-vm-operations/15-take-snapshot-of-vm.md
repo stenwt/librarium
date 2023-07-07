@@ -47,7 +47,7 @@ You can take a snapshot of an online VM that has hotplugged disks. Only persiste
 3. Navigate to **Virtual Machines > Snapshots**, and click the **Take snapshot** button.
 
 
-:::warn
+:::caution
 
 In some situations, such as with the Fedora operating system, SELinux on the guest prevents the QEMU guest agent from [*quiescing*](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.hostclient.doc/GUID-64B866EF-7636-401C-A8FF-2B4584D9CA72.html?hWord=N4IghgNiBcII4FcCWBTAzgYxSAvkA) the target filesystem. As a workaround, you can do one of the following:
 
@@ -65,7 +65,7 @@ The default time for a snapshot is five minutes. If the snapshot has not success
 
 <br />
 
-:::warn
+:::caution
 
 Snapshots should not be used as a backup method, as running a VM on a snapshot for extended periods of time can cause instability and data loss.
 

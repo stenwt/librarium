@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 
@@ -48,7 +48,7 @@ This installation method is common in secure environments with restricted networ
 
 <br />
 
-:::warn
+:::caution
 
 Palette cannot manage the cluster that it is installed onto due to component conflicts. Consider using a managed Kubernetes service to minimize management overhead. The Palette Helm Chart is not tied to any particular managed Kubernetes service.
 
@@ -88,7 +88,7 @@ Choose the installation steps for your target environment. The steps in the gene
 
     <br />
 
-    :::warn
+    :::caution
 
       Do not use a wildcard in the root domain value for the `env.rootDomain` parameter. Use a complete domain name when assigning a root domain name value.
 
@@ -221,7 +221,7 @@ You now have a self-hosted instance of Palette installed in a Kubernetes cluster
 
     <br />
 
-    :::warn
+    :::caution
 
       Do not use a wildcard in the root domain value for the `env.rootDomain` parameter. Use a complete domain name when assigning a root domain name value.
 
@@ -300,7 +300,7 @@ You can validate that the installation of Palette is successful by visiting the 
 <br />
 
 
-:::warn
+:::caution
 
 If you notice that the pods in the `hubble-system` namespace are not initializing as expected, it might be due to a delay in adding the DNS records for the rootDomain. The workaround is to terminate all pods except the pods related to `mongo-db` in the `hubble-system` namespace to trigger a redeployment of the pods.
 

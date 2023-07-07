@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 
 # Required IAM Policies
 
@@ -32,7 +32,7 @@ Additional IAM policies may be required depending on the use case. For example, 
 
 <br />
 
-:::warn
+:::caution
 
 You can attach a maximum of ten managed policies to an IAM User or role. Exceeding this limit will result in cluster deployment failures. If you find yourself in a scenario where you are exceeding the limit, consider combining policies into a custom-managed policy.
 You can learn more about AWS IAM limits in the [IAM Quotas](https://docs.aws.amazon.com/us_en/IAM/latest/UserGuide/reference_iam-quotas.html) reference guide.

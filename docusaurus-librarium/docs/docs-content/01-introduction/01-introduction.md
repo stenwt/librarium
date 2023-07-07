@@ -5,6 +5,7 @@ metaDescription: "Learn what Spectro Cloud's Palette platform is, and how it red
 icon: ""
 hideToC: true
 fullWidth: false
+slug: /
 ---
 
 

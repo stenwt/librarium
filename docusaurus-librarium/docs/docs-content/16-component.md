@@ -2,15 +2,16 @@
 title: "Compatibility Matrix"
 metaTitle: "Palette Components Compatibility Matrix"
 metaDescription: "Learn what Palette components are compatible with what versions."
-icon: "audits"
 hideToC: false
 fullWidth: false
+sidebar_custom_props:
+    icon: "audits"
 ---
 
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Overview

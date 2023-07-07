@@ -2,16 +2,17 @@
 title: "Knowledge Base"
 metaTitle: "knowledgebase"
 metaDescription: "Knowledge Base Repository"
-icon: "book"
 hideToCSidebar: true
 hideToC: true
 fullWidth: true
+sidebar_custom_props:
+    icon: "book"
 ---
 
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Overview

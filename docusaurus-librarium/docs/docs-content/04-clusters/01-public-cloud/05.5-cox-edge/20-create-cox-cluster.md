@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Create and Manage Cox Edge IaaS Cluster
@@ -52,7 +52,7 @@ Palette supports creating and managing Kubernetes clusters deployed to a Cox Edg
 
 6. Select a cluster profile that is compatible with Cox Edge. If you need guidance creating a cluster profile, check out the [Creating Cluster Profiles](/cluster-profiles/task-define-profile) guide.
 
-:::warn
+:::caution
 
 If you want to use the Kubernetes cluster autoscaler feature and you are using [Longhorn](/integrations/longhorn) for the storage container interface. Set the `charts.longhorn.defaultSettings.kubernetesClusterAutoscalerEnabled` parameter to `true`.
 
@@ -95,7 +95,7 @@ charts:
     
   <br />
 
-    :::warn
+    :::caution
 
     Use the network rules specified in the [Network Rules](/clusters/public-cloud/cox-edge/network-rules) documentation. If you fail to add the required network rules, Palette will be unable to deploy the cluster to Cox Edge.
 

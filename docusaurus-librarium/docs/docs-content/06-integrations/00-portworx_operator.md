@@ -11,7 +11,7 @@ logoUrl: 'https://registry.spectrocloud.com/v1/csi-portworx/blobs/sha256:e27bc9a
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Portworx /w Operator
@@ -547,7 +547,7 @@ When using the `Use External Kvdb over SSL` preset, you additionally need to con
 2. Input your SSL certificates in the `cacert`, `cert`, and `key` sections of `charts.portworx-generic.externalKvdb`. The preset will give you cropped example values that you can overwrite with your actual PEM certificates.
 
 
-:::warn
+:::caution
 Make sure to follow the provided indentation style; otherwise, certs will not be imported correctly and will result in Portworx deployment failure.
 :::
 

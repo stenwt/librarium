@@ -12,7 +12,7 @@ logoUrl: 'https://registry.spectrocloud.com/v1/k8s-dashboard/blobs/sha256:2de5d8
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Spectro Kubernetes Dashboard
@@ -21,7 +21,7 @@ Spectro Kubernetes Dashboard is a web-based UI for Kubernetes clusters that auto
 
 <br />
 
-:::warn
+:::caution
 
 We recommend using the pack defaults. Default settings provide best practices for your clusters. Changing the default settings can introduce misconfigurations. Carefully review the changes you make to a pack. 
 

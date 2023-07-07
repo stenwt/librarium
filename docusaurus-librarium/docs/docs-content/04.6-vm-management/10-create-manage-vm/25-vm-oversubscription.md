@@ -35,7 +35,7 @@ Certain workloads that require a predictable latency and enhanced performance wo
 
 <br />
 
-:::warn
+:::caution
 
 - We do not recommend overcommitting CPUs in a production environment without extensive testing. Applications that use 100 percent of processing resources may become unstable in overcommitted environments.
 

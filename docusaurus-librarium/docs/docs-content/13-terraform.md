@@ -2,15 +2,17 @@
 title: "Palette Terraform Support"
 metaTitle: "Palette Terraform Support"
 metaDescription: "Understanding, installing and operating Spectro Cloud's Terraform Provider."
-icon: "terraform"
+
 hideToC: false
 fullWidth: false
+sidebar_custom_props:
+    icon: "terraform"
 ---
 
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 

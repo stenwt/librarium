@@ -8,8 +8,8 @@ fullWidth: true
 hideToCSidebar: false
 ---
 
-import Packs from "@site/src/shared/components/common/Integrations/Packs"
-import AppTiers from "@site/src/shared/components/common/Integrations/AppTiers"
+import Packs from "@site/src/components/Integrations/Packs"
+import AppTiers from "@site/src/components/Integrations/AppTiers"
 
 
 

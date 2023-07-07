@@ -1,9 +1,20 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
+const lightCodeTheme = require("prism-react-renderer/themes/oceanicNext");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const redirects = require("./redirects");
+
+function generateIntegrationData(allContent) {
+  const packsData = allContent["docusaurus-plugin-content-docs"].default.loadedVersions[0].docs
+    .filter((doc) => {
+      return doc.frontMatter.type === "appTier";
+    })
+    .map((doc) => {
+      return { fields: { ...doc.frontMatter, slug: doc.slug, id: doc.id } };
+    });
+  return packsData;
+}
 
 function generatePacksData(allContent) {
   const packsData = allContent["docusaurus-plugin-content-docs"].default.loadedVersions[0].docs
@@ -11,9 +22,19 @@ function generatePacksData(allContent) {
       return doc.frontMatter.type === "integration";
     })
     .map((doc) => {
-      console.log(doc);
-      return { fields: { ...doc.frontMatter } };
+      return { fields: { ...doc.frontMatter, slug: doc.slug, id: doc.id } };
     });
+  return packsData;
+}
+
+function getLatestUpdates(allContent) {
+  const latestUpdates = allContent["docusaurus-plugin-content-docs"].default.loadedVersions[0].docs
+    .sort((doc1, doc2) => {
+      return doc1.lastUpdatedAt - doc2.lastUpdatedAt;
+    })
+    .slice(0, 2);
+
+  return latestUpdates;
 }
 
 /** @type {import('@docusaurus/types').Config} */
@@ -54,6 +75,18 @@ const config = {
           showLastUpdateTime: true,
 
           sidebarPath: require.resolve("./sidebars.js"),
+          async sidebarItemsGenerator({ defaultSidebarItemsGenerator, ...args }) {
+            const { docs } = args;
+            const filteredDocs = docs.filter((doc) => {
+              return !doc.frontMatter.hiddenFromNav;
+            });
+            const sidebarItems = await defaultSidebarItemsGenerator({
+              ...args,
+              docs: filteredDocs,
+            });
+            return sidebarItems;
+          },
+
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -67,15 +100,23 @@ const config = {
   ],
 
   plugins: [
-    async function myPlugin(context, options) {
-      // ...
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "api",
+        path: "docs/api-content",
+        routeBasePath: "api",
+      },
+    ],
+    async function pluginMdxFrontMatter(context, options) {
       return {
-        name: "plugin-mdx-frontend-matter",
+        name: "plugin-mdx-frontmatter",
         async contentLoaded({ allContent, actions }) {
           const { setGlobalData } = actions;
-          generatePacksData(allContent);
+          const integrationsData = generateIntegrationData(allContent);
+          const packsData = generatePacksData(allContent);
+          setGlobalData({ integrations: integrationsData, packs: packsData });
         },
-        /* other lifecycle API */
       };
     },
     [
@@ -107,11 +148,36 @@ const config = {
         redirects: [...redirects],
       },
     ],
+    [
+      "docusaurus-plugin-openapi-docs",
+      {
+        id: "apidocs",
+        docsPluginId: "api",
+        config: {
+          palette: {
+            specPath: "palette-api/petstore.yaml",
+            outputDir: "docs/api-content",
+            sidebarOptions: {
+              groupPathsBy: "tag",
+            },
+            version: "1.0.0",
+            label: "v1",
+          },
+        },
+      },
+    ],
   ],
+
+  themes: ["docusaurus-theme-openapi-docs"],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       // Replace with your project's social card
       image: "img/logo_landscape_for_white.png",
       navbar: {
@@ -130,9 +196,40 @@ const config = {
           },
         ],
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: "HYWWHZN0FH",
+
+        // Public API key: it is safe to commit it
+        apiKey: "6cc5311ebe17ffb148a1366268216402",
+
+        indexName: "production",
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: "external\\.com|domain\\.com",
+
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        replaceSearchResultPathname: {
+          from: "/docs/", // or as RegExp: /\/docs\//
+          to: "/",
+        },
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: "search",
+      },
+      sidebar: {
+        hideable: true,
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ["bash", "json", "powershell", "hcl"],
       },
       zoom: {
         selector: ".markdown :not(em) > img",

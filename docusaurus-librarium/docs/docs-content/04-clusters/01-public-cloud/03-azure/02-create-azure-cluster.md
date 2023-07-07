@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 
@@ -69,7 +69,7 @@ The following steps need to be performed to provision a new Azure cluster:
 7. Provide the Azure Cloud account placement information for cluster configuration. If you have custom storage accounts or storage container available, they will be eligble for attachment. To learn more about attaching custom storage to a cluster, check out the [Azure storage](/clusters/public-cloud/azure/architecture#azurestorage) page.
 
 
-:::warn
+:::caution
 
 If the Azure account is [registered](/clusters/public-cloud/azure/azure-cloud) with the option **Disable Properties** enabled and the cluster configuration option **Static Placement** is enabled, then the network information from your Azure account will not be imported by Palette. You can manually input the information for the **Control Plane Subnet** and the **Worker Network**, but be aware that drop-down menu selections will be empty.
 
@@ -174,7 +174,7 @@ To force delete a cluster follow the same steps outlined in [Deleting an Azure I
 
 <br />
 
-:::warn
+:::caution
 
 
 A force delete can result in resources Palette provisioned being missed in the removal process. Verify there are no remaining Palette provisioned resources such as:

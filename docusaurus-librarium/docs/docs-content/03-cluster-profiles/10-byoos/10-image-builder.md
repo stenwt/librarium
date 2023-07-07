@@ -60,7 +60,7 @@ This guide will teach you how to use the Kubernetes Image Builder to create imag
 
 <br />
 
-:::warn
+:::caution
 
 To use a commercial OS, you must provide the license before starting the image creation process.
 
@@ -302,7 +302,7 @@ You now have a cluster profile that uses the custom image you created using the 
 
 <br />
 
-:::warn
+:::caution
 
 When deploying a host cluster, choosing the appropriate cloud provider and region where the image was distributed is critical to successfully launching a cluster using a custom image in the cluster profile. Failure to do so may result in Palette's inability to launch a cluster.
 

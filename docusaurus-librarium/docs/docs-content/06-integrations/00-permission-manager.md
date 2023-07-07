@@ -12,7 +12,7 @@ logoUrl: 'https://registry.spectrocloud.com/v1/permission-manager/blobs/sha256:1
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 

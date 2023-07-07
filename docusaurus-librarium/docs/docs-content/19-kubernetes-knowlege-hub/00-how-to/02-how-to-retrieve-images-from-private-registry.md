@@ -11,7 +11,7 @@ hiddenFromNav: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # How To Retrieve Images from a Private Registry in Kubernetes

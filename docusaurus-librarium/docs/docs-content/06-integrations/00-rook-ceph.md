@@ -11,7 +11,7 @@ logoUrl: ' https://registry.dev.spectrocloud.com/v1/csi-rook-ceph/blobs/sha256:2
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 

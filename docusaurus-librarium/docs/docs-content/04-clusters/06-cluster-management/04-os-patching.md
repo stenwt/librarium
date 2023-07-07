@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 
 
 # Overview
@@ -53,7 +53,7 @@ To perform an **On-Demand** update for an active cluster. Navigate to the **Main
 
 <br />
 
-:::warn
+:::caution
     This operation is not available for existing Kubernetes clusters imported into Palette.
     This operation is not available for managed Kubernetes Services such as EKS, AKS etc. For EKS clusters, an OS update can be triggered from Palette. This would initiate a request on AWS to update cluster node groups to the latest patch version. 
 :::

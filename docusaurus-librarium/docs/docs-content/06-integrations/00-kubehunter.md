@@ -11,7 +11,7 @@ logoUrl: 'https://registry.dev.spectrocloud.com/v1/kubehunter/blobs/sha256:6b6b9
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 

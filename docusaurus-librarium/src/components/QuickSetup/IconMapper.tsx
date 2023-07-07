@@ -38,11 +38,11 @@ const icons = {
   roles: <RolesIcon />,
   teams: <TeamsIcon />,
   workspaces: <WorkspacesIcon />,
-  terraform: <TerraformIcon />
+  terraform: <TerraformIcon />,
 };
 
 function IconMapper({ type }) {
-  if (!Object.keys(icons).includes(type)) {
+  if (!icons[type]) {
     return <FontAwesomeIcon icon={type} />;
   }
 

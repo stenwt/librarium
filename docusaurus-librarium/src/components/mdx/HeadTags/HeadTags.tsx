@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./HeadTags.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function generatePermalinkAnchor(children) {
   const headingId = generateHeadingId(children);

@@ -2,9 +2,10 @@
 title: "Cluster Profiles"
 metaTitle: "Understanding Cluster Profiles"
 metaDescription: "Understanding the Cluster Profiles Concept and how they make Spectro Cloud powerful"
-icon: "bundles"
 hideToC: true
 fullWidth: false
+sidebar_custom_props:
+    icon: "bundles"
 ---
 
 

@@ -11,7 +11,7 @@ logoUrl: 'https://registry.spectrocloud.com/v1/argo-cd/blobs/sha256:647cd3df6fec
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Overview

@@ -2,9 +2,10 @@
 title: "User Management"
 metaTitle: "User Management"
 metaDescription: "Dive into Palette's user management capabilities and how to manage users' access and setting up controls, integrations, and more."
-icon: "roles"
 hideToC: false
 fullWidth: false
+sidebar_custom_props:
+    icon: "roles"
 ---
 
 

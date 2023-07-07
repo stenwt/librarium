@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 
 
 
@@ -74,7 +74,7 @@ A force delete can result in Palette-provisioned resources being missed in the r
 
 <br />
 
-:::warn
+:::caution
 
 Failure in removing provisioned resources can result in unexpected costs.   
 

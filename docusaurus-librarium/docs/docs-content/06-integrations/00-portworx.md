@@ -11,7 +11,7 @@ logoUrl: 'https://registry.spectrocloud.com/v1/csi-portworx/blobs/sha256:e27bc9a
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Portworx
@@ -167,7 +167,7 @@ If the external etcd server is configured to authenticate via certificates, addi
 2. Setup certificate related configuration in `externalKvdb.cacert`, `externalKvdb.cert`, and `externalKvdb.key`.
 
 
-:::warn
+:::caution
 Make sure to follow the correct indentation style; otherwise, certs will not be imported correctly and will result in Portworx deployment failure.
 :::
 
@@ -368,7 +368,7 @@ If you chose the latter, make sure to create the secret in the target cluster ma
 
 <br />
 
-:::warn
+:::caution
 Until the secret is created in the cluster, Portworx deployments might fail to run. When secret is configured, reconciliation should recover Portworx.
 :::
 

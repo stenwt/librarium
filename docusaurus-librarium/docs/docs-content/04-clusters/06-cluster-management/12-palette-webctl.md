@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 
@@ -38,7 +38,7 @@ If you are using Palette Virtual Machine (VM) Management, you can find steps on 
 - A host cluster that is either publicly accessible OR a private host cluster that has the [Spectro Proxy](/integrations/frp) installed.
 
 
-:::warn
+:::caution
 
 If you are using [OIDC](/clusters/cluster-management/cluster-rbac#userbacwithoidc) with your host cluster, you will need the kubelogin plugin. Refer to the kubelogin GitHub repository [README](https://github.com/int128/kubelogin#setup) for installation guidance.
 

@@ -11,7 +11,7 @@ logoUrl: 'https://registry.spectrocloud.com/v1/csi-longhorn/blobs/sha256:8257bd6
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Longhorn Overview

@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 
 # Overview
 
@@ -92,7 +92,7 @@ You can add Edge hosts to the node pool of an existing host cluster. Use the fol
 
 - A host cluster of type Edge Native.
 
-:::warn
+:::caution
 
 When adding a new Edge host to an existing cluster, ensure you are not creating a scenario where [etcd](https://etcd.io/) could fail in establishing a quorum. Quorum failures typically result when there is an even number of nodes.
 To learn more, check out the resource from the etcd documentation titled [Why an odd number of cluster members](https://etcd.io/docs/v3.3/faq/#why-an-odd-number-of-cluster-members).

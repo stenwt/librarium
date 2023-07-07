@@ -10,7 +10,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 
@@ -89,7 +89,7 @@ The FIPS mode can cover different use cases as below:
 
 <br />
 
-:::warn
+:::caution
 
 FIPS enablement at the tenant or project scope can be disabled or enabled during cluster creation.  Toggle the **FIPS Mode** button while creating the cluster configurations of cluster deployment.
 

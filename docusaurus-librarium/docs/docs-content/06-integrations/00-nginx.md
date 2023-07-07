@@ -11,7 +11,7 @@ logoUrl: 'https://registry.spectrocloud.com/v1/nginx/blobs/sha256:a36bf7e8023f01
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 

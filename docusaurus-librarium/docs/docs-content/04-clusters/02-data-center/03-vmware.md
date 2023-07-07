@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 
 
 
@@ -126,7 +126,7 @@ If the network is a Distributed Port Group under a vSphere Distributed Switch (V
 
 <br />
 
-:::warn
+:::caution
 The root-level role privileges are applied to root object and Datacenter objects only.
 :::
 
@@ -610,6 +610,6 @@ A cluster stuck in the **Deletion** state can be force deleted by the user throu
       - If the **Force Delete Cluster** button is not enabled, wait for 15 minutes. The **Settings** dropdown will give the estimated time for the auto-enabling of the **Force Delete** button.
 
 
-:::warn
+:::caution
 If there are any cloud resources still on the cloud, the user should cleanup those resources before going for the force deletion.
 :::

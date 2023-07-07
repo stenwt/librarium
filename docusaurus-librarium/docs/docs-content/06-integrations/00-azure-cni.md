@@ -11,7 +11,7 @@ logoUrl: 'https://registry.dev.spectrocloud.com/v1/csi-azure/blobs/sha256:0787b7
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 
@@ -77,7 +77,7 @@ pack:
 |Support|Supported by Azure Support and Engineering team|Calico community support.|
 |Logging|Rules added or deleted in IP Tables are logged on every host under `/var/log/azure-npm.log`|For more information, see [Calico component logs](https://projectcalico.docs.tigera.io/maintenance/troubleshoot/component-logs)|
 
-:::warn
+:::caution
 Make sure to use Azure CNI with the Windows operating system as the
 kubenet is not available for the Windows environment.
 :::

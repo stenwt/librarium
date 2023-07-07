@@ -22,7 +22,7 @@ The following steps will guide you to enable Palette SSO with [Microsoft AD FS](
 
 <br />
 
-:::warn
+:::caution
 
  You cannot use Microsoft AD FS for SAML-based SSO with Palette. Microsoft AD FS does not support the Canonical XML 1.1 standard that Palette employs. You can only use the OIDC-based approach for Microsoft AD FS.
 

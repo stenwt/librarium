@@ -9,7 +9,7 @@ fullWidth: false
 ---
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import YouTube from '@site/src/components/Video';
 
 # Deploy a Cluster
@@ -645,7 +645,7 @@ Navigate to the cluster's details page and verify you are in the **Overview** ta
 <br />
 
 
-:::warn
+:::caution
 
 It takes between one to three minutes for DNS to properly resolve the public load balancer URL. We recommend waiting a few moments before clicking on the service URL to prevent the browser from caching an unresolved DNS request.
 
@@ -1151,7 +1151,7 @@ From the cluster's **Overview** page, click on the URL for port **:8080** next t
 <br />
 
 
-:::warn
+:::caution
 
 It takes between one to three minutes for DNS to properly resolve the public load balancer URL. We recommend waiting a few moments before clicking on the service URL to prevent the browser from caching an unresolved DNS request.
 

@@ -12,7 +12,7 @@ logoUrl: "https://registry.spectrocloud.com/v1/k8s-dashboard/blobs/sha256:2de5d8
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Kubernetes Dashboard
@@ -88,10 +88,10 @@ A user-friendly version of this pack is available, Spectro Kubernetes Dashboard,
 | | | | By default, a ClusterRole (k8s-dashboard-readonly) with ReadOnly access to most of the resources is deployed. |
 | k8s-dashboard.certDuration | A Go time.Duration string format in s (seconds), m (minutes), and h (hour) suffixes | `8760h` (365 days) | Validity for the Self-signed certificate, specified in hours. |
 | k8s-dashboard.certRenewal | A Go time.Duration string format in s (seconds), m (minutes), and h (hour) suffixes | `720h` (30 days) | Certificate renew before expiration duration |
-| k8s-dashboard.serviceType | ClusterIP, LoadBalancer | ClusterIP | The ServiceType for dashboard. :::warnIt is highly recommended to use ClusterIP service type to restrict access to the cluster::: |
-| k8s-dashboard.skipLogin | True, False | False | Flag to skip authentications in the Dashboard UI. :::warn Enabling this might expose a security risk. Use this only for demo purposes.::: |
+| k8s-dashboard.serviceType | ClusterIP, LoadBalancer | ClusterIP | The ServiceType for dashboard. :::cautionIt is highly recommended to use ClusterIP service type to restrict access to the cluster::: |
+| k8s-dashboard.skipLogin | True, False | False | Flag to skip authentications in the Dashboard UI. :::caution Enabling this might expose a security risk. Use this only for demo purposes.::: |
 
-:::warn
+:::caution
 
 Starting with Kubernetes Dashboard version 2.7.0, the **Connect** button is no longer available. For an optimized experience, we recommend you use the Spectro Kubernetes Dashboard integrated pack. 
 

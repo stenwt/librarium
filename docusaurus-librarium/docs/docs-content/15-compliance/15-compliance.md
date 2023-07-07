@@ -2,15 +2,16 @@
 title: "Compliance"
 metaTitle: "Certification of Compliance"
 metaDescription: "Certification of Compliance"
-icon: "user-shield"
 hideToC: false
 fullWidth: false
+sidebar_custom_props:
+    icon: "user-shield"
 ---
 
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 

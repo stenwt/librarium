@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 
 
 
@@ -208,7 +208,7 @@ While configuring the Operating System layer of the TKE cluster profile, configu
 
 :::
 
-:::warn
+:::caution
 
 While adding Add-on packs to the Cluster Profile, make sure that Persistent Volume Claim size is >=10 GB and in multiples of 10.
 
@@ -290,6 +290,6 @@ In Tenant Admin and Project Admin scope, Palette allows you to force the deletio
       - If the **Force Delete Cluster** button is not enabled, wait for 15 minutes. The **Settings** dropdown will give the estimated time for the auto-enabling of the **Force Delete** button.
 
 
-:::warn
+:::caution
 If any resources remain in the cloud, you should clean them up before initiating a forced delete.
 :::

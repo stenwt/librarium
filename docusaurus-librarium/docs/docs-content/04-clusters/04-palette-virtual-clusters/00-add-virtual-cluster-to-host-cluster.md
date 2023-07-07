@@ -10,12 +10,12 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Add Virtual Clusters to a Host Cluster
 
-:::warn
+:::caution
 
 As of Palette 3.2, this feature is deprecated. Use the [Deploy a Virtual Cluster to a Cluster Group](/clusters/palette-virtual-clusters/deploy-virtual-cluster) guide to learn how to deploy Palette Virtual clusters. 
 

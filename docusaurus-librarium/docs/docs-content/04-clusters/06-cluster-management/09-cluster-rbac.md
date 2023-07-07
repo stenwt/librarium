@@ -9,7 +9,7 @@ fullWidth: false
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 
 # Overview
 
@@ -83,7 +83,7 @@ There are many reasons why you may want to create roles and assign permissions t
 
 <br />
 
-:::warn
+:::caution
 
 Palette does not provide a way for roles to be configured natively through its platform. You can create roles by using a manifest layer in the cluster profile. RBAC management only allows you to specify role bindings. 
 
@@ -105,7 +105,7 @@ In summary, using Palette roles allows you to control what actions users can do 
 
 <br />
 
-:::warn
+:::caution
 
 Palette roles do not automatically map to a Kubernetes role. You must create a role binding for a specific user or group of users.
 

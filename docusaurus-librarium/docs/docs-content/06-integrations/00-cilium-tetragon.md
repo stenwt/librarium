@@ -11,7 +11,7 @@ logoUrl: 'https://soak.stage.spectrocloud.com/assets/monitoring_layer.3b14cf5b.s
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Cilium Tetragon

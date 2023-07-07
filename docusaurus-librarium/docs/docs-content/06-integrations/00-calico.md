@@ -11,7 +11,7 @@ logoUrl: 'https://registry.spectrocloud.com/v1/cni-calico/blobs/sha256:9a08103cc
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 
@@ -31,7 +31,7 @@ Calico manifest used for networking does the following:
 * The `calico-etcd-secrets` secret, which optionally allows for providing etcd TLS assets.
 * The `calico-config` ConfigMap, which contains parameters for configuring the install.
 
-:::warn
+:::caution
 Limitations:
 AWS, VMWare supports IP-in-IP encapsulation type.
 Azure supports VXLAN encapsulation type.

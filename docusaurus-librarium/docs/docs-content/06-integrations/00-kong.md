@@ -11,7 +11,7 @@ logoUrl: 'https://registry.spectrocloud.com/v1/kong/blobs/sha256:600f20583f85cca
 
 
 
-import PointsOfInterest from '@site/src/shared/components/common/PointOfInterest';
+import PointsOfInterest from '@site/src/components/PointOfInterest';
 import Tooltip from "@site/src/components/Tooltip";
 
 # Kong Ingress Controller
