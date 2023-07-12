@@ -27,15 +27,15 @@ function generatePacksData(allContent) {
   return packsData;
 }
 
-function getLatestUpdates(allContent) {
-  const latestUpdates = allContent["docusaurus-plugin-content-docs"].default.loadedVersions[0].docs
-    .sort((doc1, doc2) => {
-      return doc1.lastUpdatedAt - doc2.lastUpdatedAt;
-    })
-    .slice(0, 2);
+// function getLatestUpdates(allContent) {
+//   const latestUpdates = allContent["docusaurus-plugin-content-docs"].default.loadedVersions[0].docs
+//     .sort((doc1, doc2) => {
+//       return doc1.lastUpdatedAt - doc2.lastUpdatedAt;
+//     })
+//     .slice(0, 2);
 
-  return latestUpdates;
-}
+//   return latestUpdates;
+// }
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -152,16 +152,14 @@ const config = {
       "docusaurus-plugin-openapi-docs",
       {
         id: "apidocs",
-        docsPluginId: "api",
+        docsPluginId: "classic",
         config: {
           palette: {
-            specPath: "palette-api/petstore.yaml",
+            specPath: "palette-api/palette-api.json",
             outputDir: "docs/api-content",
             sidebarOptions: {
               groupPathsBy: "tag",
             },
-            version: "1.0.0",
-            label: "v1",
           },
         },
       },
@@ -187,23 +185,18 @@ const config = {
           src: "img/logo_landscape_for_white.png",
         },
         items: [
-          { to: "/introduction", label: "Docs", position: "right" },
+          { to: "/", label: "Docs", position: "right" },
           { to: "/api/introduction", label: "API", position: "right" },
-          {
-            to: "https://console.spectrocloud.com/",
-            label: "Back to Spectro Cloud",
-            position: "right",
-          },
         ],
       },
       algolia: {
         // The application ID provided by Algolia
-        appId: "HYWWHZN0FH",
+        appId: "YIQEK8ZLC9",
 
         // Public API key: it is safe to commit it
-        apiKey: "6cc5311ebe17ffb148a1366268216402",
+        apiKey: "994024f3176ed622d498fa2b3db874d9",
 
-        indexName: "production",
+        indexName: "prod",
 
         // Optional: see doc section below
         contextualSearch: true,
