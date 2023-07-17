@@ -9,13 +9,6 @@ hiddenFromNav: false
 hideToCSidebar: true
 ---
 
-
-<Intro>
-
-# Postman Collection
-
-</Intro>
-
 Spectro Cloud provides a Postman collection for your convenience to help you interact with the Spectro Cloud API.
 
 ## Prerequisites

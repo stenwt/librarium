@@ -92,6 +92,12 @@ const config = {
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
+        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -104,8 +110,32 @@ const config = {
       "@docusaurus/plugin-content-docs",
       {
         id: "api",
-        path: "docs/api-content",
+        path: "docs/api-content/api-docs",
         routeBasePath: "api",
+        docItemComponent: "@theme/ApiItem",
+        sidebarPath: require.resolve("./apisidebar.js"),
+      },
+    ],
+    [
+      "docusaurus-plugin-openapi-docs",
+      {
+        id: "apidocs",
+        docsPluginId: "api",
+        config: {
+          palette: {
+            proxy: "https://api.spectrocloud.com",
+            specPath: "palette-api/result.json",
+            outputDir: "docs/api-content/api-docs",
+            downloadUrl:
+              "https://github.com/spectrocloud/librarium/blob/master/content/api/palette-apis.json",
+            sidebarOptions: {
+              groupPathsBy: "tag",
+              categoryLinkSource: "tag",
+            },
+            template: "api.mustache", // Customize API MDX with mustache template
+            hideSendButton: false,
+          },
+        },
       },
     ],
     async function pluginMdxFrontMatter(context, options) {
@@ -148,22 +178,6 @@ const config = {
         redirects: [...redirects],
       },
     ],
-    [
-      "docusaurus-plugin-openapi-docs",
-      {
-        id: "apidocs",
-        docsPluginId: "classic",
-        config: {
-          palette: {
-            specPath: "palette-api/palette-api.json",
-            outputDir: "docs/api-content",
-            sidebarOptions: {
-              groupPathsBy: "tag",
-            },
-          },
-        },
-      },
-    ],
   ],
 
   themes: ["docusaurus-theme-openapi-docs"],
@@ -185,7 +199,7 @@ const config = {
           src: "img/logo_landscape_for_white.png",
         },
         items: [
-          { to: "/", label: "Docs", position: "right" },
+          { to: "/", label: "Docs", position: "right", activeBaseRegex: "^(?!/api/).*$" },
           { to: "/api/introduction", label: "API", position: "right" },
         ],
       },

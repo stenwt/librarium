@@ -16,6 +16,12 @@
     "generate-api-docs": "docusaurus gen-api-docs palette",
     "clean-api-docs": "docusaurus clean-api-docs palette"
   },
+  "overrides": {
+    "react-live": ">=3.1.1 <4.0.0"
+  },
+  "resolutions": {
+    "react-live": ">=3.1.1 <4.0.0"
+  },
   "dependencies": {
     "@docusaurus/core": "2.4.1",
     "@docusaurus/plugin-client-redirects": "^2.4.1",
@@ -28,12 +34,11 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@mdx-js/react": "^1.6.22",
-    "@mendable/search": "^0.0.109",
     "antd": "^5.6.2",
     "clsx": "^1.2.1",
     "docusaurus-plugin-image-zoom": "^1.0.1",
-    "docusaurus-plugin-openapi-docs": "^1.7.3",
-    "docusaurus-theme-openapi-docs": "^1.7.3",
+    "docusaurus-plugin-openapi-docs": "^2.0.0-beta.3",
+    "docusaurus-theme-openapi-docs": "^2.0.0-beta.3",
     "fuse.js": "^6.6.2",
     "prism-react-renderer": "^1.3.5",
     "react": "^17.0.2",
