@@ -80,13 +80,13 @@ const Header1 = (props) => {
 
   return (
     <HeaderWrap>
-      <a href={generatePermalinkAnchor(props.children, tabsIdentifierData)}>
-        <FontAwesomeIcon icon="link" />
-      </a>
       <h1 {...props}>
         {props.children}
         <Anchor id={generateHeadingId(props.children)} />
       </h1>
+      <a href={generatePermalinkAnchor(props.children, tabsIdentifierData)}>
+        <FontAwesomeIcon icon="link" />
+      </a>
     </HeaderWrap>
   );
 };

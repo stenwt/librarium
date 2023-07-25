@@ -1,10 +1,10 @@
 ---
 title: "Order of Operations"
 metaTitle: "Provision and Order of Operations in Palette"
-metaDescription: "The methods of workload cluster provisioning for K8S clusters with Palette"
+description: "The methods of workload cluster provisioning for K8S clusters with Palette"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
  
 

@@ -1,9 +1,9 @@
 ---
 title: "Architecture"
 metaTitle: "AWS Architecture with Palette"
-metaDescription: "Learn about Palette and the architecture used to support Palette"
-hideToC: false
-fullWidth: false
+description: "Learn about Palette and the architecture used to support Palette"
+hide_table_of_contents: false
+
 ---
 
 

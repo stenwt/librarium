@@ -1,9 +1,9 @@
 ---
 title: "Create and Manage MAAS Clusters"
 metaTitle: "Create and Manage MAAS Clusters"
-metaDescription: "Learn how to create and manage MAAS clusters in Palette."
-hideToC: false
-fullWidth: false
+description: "Learn how to create and manage MAAS clusters in Palette."
+hide_table_of_contents: false
+
 ---
 
 

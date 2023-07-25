@@ -1,10 +1,10 @@
 ---
 title: "Upgrade Notes"
 metaTitle: "Upgrade Notes"
-metaDescription: "Spectro Cloud upgrades notes for specific Palette versions."
+description: "Spectro Cloud upgrades notes for specific Palette versions."
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

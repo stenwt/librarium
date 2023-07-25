@@ -1,9 +1,9 @@
 ---
 title: "RBAC and NS Support"
 metaTitle: "Cluster Level RBAC and NS Support"
-metaDescription: "Cluster Level RBAC and NS Support for Access Control"
-hideToC: false
-fullWidth: false
+description: "Cluster Level RBAC and NS Support for Access Control"
+hide_table_of_contents: false
+
 ---
 
 

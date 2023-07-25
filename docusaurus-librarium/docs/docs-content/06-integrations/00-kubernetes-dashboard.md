@@ -1,11 +1,12 @@
 ---
 title: "Kubernetes Dashboard"
 metaTitle: "Kubernetes Dashboard"
-metaDescription: "Kubernetes Dashboard Monitoring pack in Spectro Cloud"
+description: "Kubernetes Dashboard Monitoring pack in Spectro Cloud"
 hiddenFromNav: true
 type: "integration"
-hideToC: false
+hide_table_of_contents: false
 category: ['monitoring']
+sidebar_class_name: "hide_sidebar"
 logoUrl: "https://registry.spectrocloud.com/v1/k8s-dashboard/blobs/sha256:2de5d88b2573af42d4cc269dff75744c4174ce47cbbeed5445e51a2edd8b7429?type=image/png"
 ---
 

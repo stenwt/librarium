@@ -1,10 +1,10 @@
 ---
 title: "Palette Resource Limits"
 metaTitle: "Default Palette Resource Limits"
-metaDescription: "Palette Resource Limit table "
+description: "Palette Resource Limit table "
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

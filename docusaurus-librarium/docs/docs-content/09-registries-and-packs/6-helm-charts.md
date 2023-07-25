@@ -1,9 +1,9 @@
 ---
 title: "Helm Registries"
 metaTitle: "Helm Registries"
-metaDescription: "Learn how to add your own Helm Registries to Palette"
-hideToC: false
-fullWidth: false
+description: "Learn how to add your own Helm Registries to Palette"
+hide_table_of_contents: false
+
 ---
 
 

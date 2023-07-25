@@ -1,10 +1,11 @@
 ---
 title: 'Cilium-Tetragon'
 metaTitle: 'cilium-Tetragon'
-metaDescription: 'Cilium Tetragon monitoring pack for Spectro Cloud Palette'
+description: 'Cilium Tetragon monitoring pack for Spectro Cloud Palette'
 hiddenFromNav: true
 type: "integration"
 category: ['monitoring']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://soak.stage.spectrocloud.com/assets/monitoring_layer.3b14cf5b.svg'
 ---
 

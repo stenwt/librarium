@@ -1,10 +1,11 @@
 ---
 title: 'Multus CNI'
 metaTitle: 'Multus CNI'
-metaDescription: 'Choosing Multus CNI within the Palette console'
+description: 'Choosing Multus CNI within the Palette console'
 hiddenFromNav: true
 type: "integration"
 category: ['network']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/cni-multus/blobs/sha256:3727499ea41784a17c818b7269c27918b8664766c40d1b1f3cd90c34d5154676?type=image/png'
 ---
 

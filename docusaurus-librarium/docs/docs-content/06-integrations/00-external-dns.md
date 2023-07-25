@@ -1,11 +1,12 @@
 ---
 title: 'ExternalDNS'
 metaTitle: 'ExternalDNS'
-metaDescription: 'ExternalDNS pack in Spectro Cloud'
+description: 'ExternalDNS pack in Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
-hideToC: false
+hide_table_of_contents: false
 category: ['load balancers']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/external-dns/blobs/sha256:1bfd6dceb0b50efee4068cd6321511f6b24be86e2d613e0a8206e716ba7aea3f?type=image/png'
 ---
 

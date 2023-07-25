@@ -1,10 +1,10 @@
 ---
 title: "App Mode and Cluster Mode"
 metaTitle: "App Mode and Cluster Mode"
-metaDescription: "Learn about the two modes available in Palette and how they benefit your Kubernetes experience."
+description: "Learn about the two modes available in Palette and how they benefit your Kubernetes experience."
 icon: ""
-hideToC: true
-fullWidth: false
+hide_table_of_contents: true
+
 ---
 
 # Palette Modes

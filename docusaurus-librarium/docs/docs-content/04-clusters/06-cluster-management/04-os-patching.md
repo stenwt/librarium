@@ -1,9 +1,9 @@
 ---
 title: "OS Patching"
 metaTitle: "Managing Cluster OS patching through Palette"
-metaDescription: "Managing Cluster OS patching through Palette"
-hideToC: false
-fullWidth: false
+description: "Managing Cluster OS patching through Palette"
+hide_table_of_contents: false
+
 ---
 
 

@@ -1,11 +1,12 @@
 ---
 title: 'Ubuntu'
 metaTitle: 'Ubuntu'
-metaDescription: 'Choose Ubuntu Operating System pack in Palette.'
+description: 'Choose Ubuntu Operating System pack in Palette.'
 
 hiddenFromNav: true
 type: "integration"
 category: ['operating system']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/ubuntu-vsphere/blobs/sha256:09a727f9005b79c69d8e60e12ce130880c63131315b49e7fb4cc44e53d34dc7a?type=image/png'
 ---
 

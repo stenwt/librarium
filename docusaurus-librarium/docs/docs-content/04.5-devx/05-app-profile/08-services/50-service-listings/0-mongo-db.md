@@ -1,11 +1,11 @@
 ---
 title: "MongoDB"
 metaTitle: "Palette Dev Engine MongoDB Service"
-metaDescription: "Palette Dev Engine MongoDB Service"
-hideToC: false
+description: "Palette Dev Engine MongoDB Service"
+hide_table_of_contents: false
 type: "appTier"
 category: ['databases']
-fullWidth: false
+
 logoUrl: "https://newrelic.com/sites/default/files/styles/800w/public/2021-10/mongo_logo.jpg?itok=Z1PabBZB"
 ---
 

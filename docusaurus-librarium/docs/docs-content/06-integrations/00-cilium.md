@@ -1,10 +1,11 @@
 ---
 title: 'Cilium'
 metaTitle: 'cilium'
-metaDescription: 'Cilium network pack for Spectro Cloud Palette'
+description: 'Cilium network pack for Spectro Cloud Palette'
 hiddenFromNav: true
 type: "integration"
 category: ['network']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.dev.spectrocloud.com/v1/cni-cilium/blobs/sha256:dbc239ac739ea2939ef41dd0743b82281bc82c360326cd7c536f73f0053e2cd2?type=image/png'
 ---
 

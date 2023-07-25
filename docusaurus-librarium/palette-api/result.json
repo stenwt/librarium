@@ -62166,5 +62166,135 @@
   },
   "produces": ["application/json"],
   "schemes": ["http", "https"],
-  "swagger": "2.0"
+  "swagger": "2.0",
+  "tags": [
+    {
+      "name": "cluster",
+      "x-displayName": "Cluster"
+    },
+    {
+      "name": "apiKeys",
+      "x-displayName": "Api Keys"
+    },
+    {
+      "name": "appDeployments",
+      "x-displayName": "App Deployments"
+    },
+    {
+      "name": "appProfiles",
+      "x-displayName": "App Profiles"
+    },
+    {
+      "name": "audits",
+      "x-displayName": "Audits"
+    },
+    {
+      "name": "auth",
+      "x-displayName": "Auth"
+    },
+    {
+      "name": "cloudaccounts",
+      "x-displayName": "Cloudaccounts"
+    },
+    {
+      "name": "cloudconfigs",
+      "x-displayName": "Cloudconfigs"
+    },
+    {
+      "name": "clouds",
+      "x-displayName": "Clouds"
+    },
+    {
+      "name": "clustergroups",
+      "x-displayName": "Clustergroups"
+    },
+    {
+      "name": "clusterprofiles",
+      "x-displayName": "Clusterprofiles"
+    },
+    {
+      "name": "dashboard",
+      "x-displayName": "Dashboard"
+    },
+    {
+      "name": "datasinks",
+      "x-displayName": "Datasinks"
+    },
+    {
+      "name": "edgehosts",
+      "x-displayName": "Edgehosts"
+    },
+    {
+      "name": "events",
+      "x-displayName": "Events"
+    },
+    {
+      "name": "filters",
+      "x-displayName": "Filters"
+    },
+    {
+      "name": "installers",
+      "x-displayName": "Installers"
+    },
+    {
+      "name": "metrics",
+      "x-displayName": "Metrics"
+    },
+    {
+      "name": "notifications",
+      "x-displayName": "Notifications"
+    },
+    {
+      "name": "overlords",
+      "x-displayName": "Overlords"
+    },
+    {
+      "name": "packs",
+      "x-displayName": "Packs"
+    },
+    {
+      "name": "pcg",
+      "x-displayName": "Pcg"
+    },
+    {
+      "name": "permissions",
+      "x-displayName": "Permissions"
+    },
+    {
+      "name": "projects",
+      "x-displayName": "Projects"
+    },
+    {
+      "name": "registries",
+      "x-displayName": "Registries"
+    },
+    {
+      "name": "roles",
+      "x-displayName": "Roles"
+    },
+    {
+      "name": "services",
+      "x-displayName": "Services"
+    },
+    {
+      "name": "spectroclusters",
+      "x-displayName": "Spectroclusters"
+    },
+    {
+      "name": "teams",
+      "x-displayName": "Teams"
+    },
+    {
+      "name": "tenants",
+      "x-displayName": "Tenants"
+    },
+    {
+      "name": "users",
+      "x-displayName": "Users"
+    },
+    {
+      "name": "workspaces",
+      "x-displayName": "Workspaces"
+    }
+  ]
 }

@@ -1,9 +1,9 @@
 ---
 title: "Model Edge Native Cluster Profile"
 metaTitle: "Instructions for creating an Edge Native Cluster Profile"
-metaDescription: "Instructions for creating an Edge Native Cluster Profile"
-hideToC: false
-fullWidth: false
+description: "Instructions for creating an Edge Native Cluster Profile"
+hide_table_of_contents: false
+
 ---
 
 

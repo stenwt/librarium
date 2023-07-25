@@ -1,10 +1,10 @@
 ---
 title: "Creating Cluster Profiles"
 metaTitle: "Creating Cluster Profiles"
-metaDescription: "The method for creating a Cluster Profile on Spectro Cloud"
+description: "The method for creating a Cluster Profile on Spectro Cloud"
 icon: ""
-hideToC: true
-fullWidth: false
+hide_table_of_contents: true
+
 ---
 
 
@@ -14,7 +14,7 @@ import PointsOfInterest from '@site/src/components/PointOfInterest';
 
 # Overview
 
- `video: /aws-full-profile.mp4`
+<video src="/assets/videos/aws-full-profile.mp4"></video>
 
 # Basic Information and Core Layers
 

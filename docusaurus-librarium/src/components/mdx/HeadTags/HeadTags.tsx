@@ -27,27 +27,9 @@ export function generateHeadingId(children) {
 
 export const Header1 = (props) => {
   return (
-    <h1 className={styles.header}>
-      <div id={generateHeadingId(props.children)}> {props.children}</div>
+    <h1 className={styles.header} id={generateHeadingId(props.children)}>
+      {props.children}
       <a href={generatePermalinkAnchor(props.children)}>#</a>
     </h1>
-  );
-};
-
-export const Header2 = (props) => {
-  return (
-    <h2 className={styles.header}>
-      <div id={generateHeadingId(props.children)}> {props.children}</div>
-      <a href={generatePermalinkAnchor(props.children)}>#</a>
-    </h2>
-  );
-};
-
-export const Header3 = (props) => {
-  return (
-    <h3 className={styles.header}>
-      <div id={generateHeadingId(props.children)}> {props.children}</div>
-      <a href={generatePermalinkAnchor(props.children)}>#</a>
-    </h3>
   );
 };

@@ -1,11 +1,12 @@
 ---
 title: 'Kibana'
 metaTitle: 'Elasticsearch-Fluentd-Kibana'
-metaDescription: 'Kibana Monitoring pack in Spectro Cloud'
+description: 'Kibana Monitoring pack in Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
-hideToC: false
+hide_table_of_contents: false
 category: ['logging']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/elastic-fluentd-kibana/blobs/sha256:3b6d6486eb216d46164fc8b7cb784b0be6b851a85726f18bdf4450d5ed1386eb?type=image/png'
 ---
 

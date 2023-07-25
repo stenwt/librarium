@@ -1,10 +1,8 @@
 ---
 title: "Knowledge Base"
 metaTitle: "knowledgebase"
-metaDescription: "Knowledge Base Repository"
-hideToCSidebar: true
-hideToC: true
-fullWidth: true
+description: "Knowledge Base Repository"
+hide_table_of_contents: true
 sidebar_custom_props:
     icon: "book"
 ---

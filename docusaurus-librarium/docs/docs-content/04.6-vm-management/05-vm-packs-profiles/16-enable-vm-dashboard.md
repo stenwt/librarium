@@ -1,10 +1,10 @@
 ---
 title: "Enable Spectro VM Dashboard"
 metaTitle: "Enable Spectro VM Dashboard"
-metaDescription: "Learn how to apply a profile to enable the Spectro VM Dashboard."
+description: "Learn how to apply a profile to enable the Spectro VM Dashboard."
 icon: " "
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Create and Manage Cluster Groups"
 metaTitle: "Create and Manage Palette Cluster Group"
-metaDescription: "Learn how to create and manage Palette Cluster Groups"
-hideToC: false
-fullWidth: false
+description: "Learn how to create and manage Palette Cluster Groups"
+hide_table_of_contents: false
+
 ---
 
 

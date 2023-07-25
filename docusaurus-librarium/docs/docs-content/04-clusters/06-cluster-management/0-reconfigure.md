@@ -1,9 +1,9 @@
 ---
 title: "Reconfigure"
 metaTitle: "Managing Cluster reconfiguration-scaling Events on Palette"
-metaDescription: "Reconfiguration-scaling Events on Palette"
-hideToC: false
-fullWidth: false
+description: "Reconfiguration-scaling Events on Palette"
+hide_table_of_contents: false
+
 ---
 
 

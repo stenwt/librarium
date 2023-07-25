@@ -1,16 +1,15 @@
 ---
 title: "Deploy a Cluster"
 metaTitle: "Deploy a Cluster"
-metaDescription: "Learn how to deploy an application to a Kubernetes cluster with Palette. Experience a streamlined approach to creating and managing multiple Kubernetes clusters, on different public cloud providers, through Palette's optimized process."
+description: "Learn how to deploy an application to a Kubernetes cluster with Palette. Experience a streamlined approach to creating and managing multiple Kubernetes clusters, on different public cloud providers, through Palette's optimized process."
 icon: ""
 category: ["tutorial"]
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 
 import PointsOfInterest from '@site/src/components/PointOfInterest';
-import YouTube from '@site/src/components/Video';
 
 # Deploy a Cluster
 

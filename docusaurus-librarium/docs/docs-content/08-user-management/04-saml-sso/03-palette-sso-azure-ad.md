@@ -1,11 +1,10 @@
 ---
 title: 'Palette SSO with Azure Active Directory'
 metaTitle: 'Palette SSO with Azure Active Directory'
-metaDescription: 'Learn how to enable SSO in Palette with Azure Active Directory'
+description: 'Learn how to enable SSO in Palette with Azure Active Directory'
 icon: ""
-hideToC: false
-fullWidth: false
-hideToCSidebar: false
+hide_table_of_contents: false
+
 hiddenFromNav: false
 ---
 

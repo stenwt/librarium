@@ -1,10 +1,10 @@
 ---
 title: "Create Images with Image Builder"
 metaTitle: "Create Images with Image Builder"
-metaDescription: "Learn how to use the Image Builder project to create images for Palette"
+description: "Learn how to use the Image Builder project to create images for Palette"
 icon: ""
-hideToC: true
-fullWidth: false
+hide_table_of_contents: true
+
 ---
 
 

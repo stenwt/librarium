@@ -1,9 +1,9 @@
 ---
 title: "Image Swap"
 metaTitle: "Image Swap"
-metaDescription: "Learn how to swap out images and registries through the image swap webhook exposed by Palette."
-hideToC: false
-fullWidth: false
+description: "Learn how to swap out images and registries through the image swap webhook exposed by Palette."
+hide_table_of_contents: false
+
 ---
 
 

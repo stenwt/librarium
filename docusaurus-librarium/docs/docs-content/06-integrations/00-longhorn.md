@@ -1,10 +1,11 @@
 ---
 title: 'Longhorn'
 metaTitle: 'Longhorn Integration with Palette'
-metaDescription: 'Longhorn pack in Palette'
+description: 'Longhorn pack in Palette'
 hiddenFromNav: true
 type: "integration"
 category: ["storage"]
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/csi-longhorn/blobs/sha256:8257bd6697941139cea8ace907e25b3859cb8de48f965a5b6011d518cad0a2db?type=image/png'
 ---
 

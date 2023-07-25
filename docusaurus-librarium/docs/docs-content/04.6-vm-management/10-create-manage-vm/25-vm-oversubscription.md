@@ -1,10 +1,10 @@
 ---
 title: "VM Performance"
 metaTitle: "VM Performance"
-metaDescription: "Learn how to improve VM performance by maximizing virtual machine CPU and Memory using Palette."
+description: "Learn how to improve VM performance by maximizing virtual machine CPU and Memory using Palette."
 icon: " "
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

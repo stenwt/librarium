@@ -1,10 +1,10 @@
 ---
 title: "Palette RBAC"
 metaTitle: "Palette User Access using RBAC "
-metaDescription: "Palette User Access control using RBAC"
+description: "Palette User Access control using RBAC"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

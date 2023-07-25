@@ -1,10 +1,11 @@
 ---
 title: "Palette eXtended Kubernetes"
 metaTitle: "Palette eXtended Kubernetes"
-metaDescription: "Learn more about the Palette eXtended Kubernetes pack and how you can use it with your host clusters."
+description: "Learn more about the Palette eXtended Kubernetes pack and how you can use it with your host clusters."
 hiddenFromNav: true
 type: "integration"
 category: ["kubernetes"]
+sidebar_class_name: "hide_sidebar"
 logoUrl: "https://registry.spectrocloud.com/v1/k8s-dashboard/blobs/sha256:2de5d88b2573af42d4cc269dff75744c4174ce47cbbeed5445e51a2edd8b7429?type=image/png"
 ---
 

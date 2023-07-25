@@ -1,9 +1,9 @@
 ---
 title: "Cloud Init Stages"
 metaTitle: "Edge Install Cloud Init Stages"
-metaDescription: "Learn how to use cloud-init stages when installing an Edge device with Palette."
-hideToC: false
-fullWidth: false
+description: "Learn how to use cloud-init stages when installing an Edge device with Palette."
+hide_table_of_contents: false
+
 ---
 
 

@@ -1,10 +1,11 @@
 ---
 title: 'Splunk'
 metaTitle: 'Splunk'
-metaDescription: 'Splunk Monitoring pack in Spectro Cloud'
+description: 'Splunk Monitoring pack in Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
 category: ['logging']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.dev.spectrocloud.com/v1/splunk/blobs/sha256:1729cfced51a1ef8693997aee535f098a782f15fba9ca5232a8dfba68a8d4857?type=image/png'
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "Workload Visibility"
 metaTitle: "View cluster workloads"
-metaDescription: "Browse all cluster resources such as pods, deployment sets, etc."
-hideToC: false
-fullWidth: false
+description: "Browse all cluster resources such as pods, deployment sets, etc."
+hide_table_of_contents: false
+
 ---
 
 

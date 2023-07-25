@@ -1,12 +1,12 @@
 ---
 title: "Redis"
 metaTitle: "Palette Dev Engine Redis Database Service"
-metaDescription: "Palette Dev Engine Redis Database Service"
-hideToC: false
+description: "Palette Dev Engine Redis Database Service"
+hide_table_of_contents: false
 type: "appTier"
 category: ['databases']
 hiddenFromNav: false
-fullWidth: false
+
 logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjxG5Qb38rX39m1M2p1W4t8H70OKpRY2breg&usqp=CAU"
 ---
 

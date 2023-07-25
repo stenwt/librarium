@@ -1,10 +1,10 @@
 ---
 title: "Nodes & Clusters"
 metaTitle: "Troubleshooting steps for Kubernetes nodes and clusters"
-metaDescription: "Troubleshooting steps for Kubernetes nodes and clusters when managed by Palette."
+description: "Troubleshooting steps for Kubernetes nodes and clusters when managed by Palette."
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 # Nodes & Clusters

@@ -1,9 +1,9 @@
 ---
 title: "Resource Quotas"
 metaTitle: "Palette Dev Engine for Enterprise developers"
-metaDescription: "Explore Palette Dev Engine as a Free developer"
-hideToC: false
-fullWidth: false
+description: "Explore Palette Dev Engine as a Free developer"
+hide_table_of_contents: false
+
 ---
 
 

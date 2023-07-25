@@ -1,11 +1,12 @@
 ---
 title: 'Prometheus Agent'
 metaTitle: 'Prometheus Agent'
-metaDescription: 'Prometheus Agent Monitoring Pack'
+description: 'Prometheus Agent Monitoring Pack'
 hiddenFromNav: true
 type: "integration"
-hideToC: false
+hide_table_of_contents: false
 category: ['monitoring']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/prometheus-operator/blobs/sha256:64589616d7f667e5f1d7e3c9a39e32c676e03518a318924e123738693e104ce0?type=image/png'
 ---
 

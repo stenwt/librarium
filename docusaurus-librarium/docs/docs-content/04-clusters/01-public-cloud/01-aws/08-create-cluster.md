@@ -1,9 +1,9 @@
 ---
 title: "Create and Manage AWS IaaS Cluster"
 metaTitle: "Create and Manage AWS Cluster"
-metaDescription: "Learn how to add and manage a cluster deployed to AWS."
-hideToC: false
-fullWidth: false
+description: "Learn how to add and manage a cluster deployed to AWS."
+hide_table_of_contents: false
+
 ---
 
 

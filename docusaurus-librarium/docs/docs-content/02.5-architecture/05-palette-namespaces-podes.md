@@ -1,10 +1,9 @@
 ---
 title: "Namespaces and Pods"
 metaTitle: "Palette specific namespaces and pods mapping"
-metaDescription: "Palette specific namespaces and pods mapping"
+description: "Palette specific namespaces and pods mapping"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: true
 ---
  
 

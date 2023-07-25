@@ -1,11 +1,10 @@
 ---
 title: 'Enable SSO in Palette'
 metaTitle: 'Enable SSO in Palette'
-metaDescription: 'Learn how to enable SSO in Palette'
+description: 'Learn how to enable SSO in Palette'
 icon: ""
-hideToC: false
-fullWidth: false
-hideToCSidebar: false
+hide_table_of_contents: false
+
 hiddenFromNav: false
 ---
 

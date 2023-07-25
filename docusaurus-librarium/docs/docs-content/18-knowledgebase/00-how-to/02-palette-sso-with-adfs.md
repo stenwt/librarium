@@ -1,11 +1,10 @@
 ---
 title: 'Palette SSO with Microsoft AD FS'
 metaTitle: 'Set up Palette SSO with Microsoft Active Directory Federation Service (AD FS)'
-metaDescription: 'Set up Palette SSO with Microsoft Active Directory Federation Service (AD FS)'
+description: 'Set up Palette SSO with Microsoft Active Directory Federation Service (AD FS)'
 icon: ""
-hideToC: false
-fullWidth: false
-hideToCSidebar: false
+hide_table_of_contents: false
+
 hiddenFromNav: false
 ---
 

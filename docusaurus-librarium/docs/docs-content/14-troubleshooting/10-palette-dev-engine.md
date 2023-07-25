@@ -1,10 +1,10 @@
 ---
 title: "Palette Dev Engine"
 metaTitle: "Palette Dev Engine"
-metaDescription: "Troubleshooting steps for errors encountered with Palette Dev Engine."
+description: "Troubleshooting steps for errors encountered with Palette Dev Engine."
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

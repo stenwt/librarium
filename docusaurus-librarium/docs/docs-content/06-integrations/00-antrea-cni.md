@@ -1,10 +1,11 @@
 ---
 title: 'Antrea CNI'
 metaTitle: 'Antrea CNI'
-metaDescription: 'Antrea CNI network pack for Palette Kubernetes Clusters'
+description: 'Antrea CNI network pack for Palette Kubernetes Clusters'
 hiddenFromNav: true
 type: "integration"
 category: ['network']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/antrea/blobs/sha256:3c5704caf6652c63374282cbf413f8e73a77c4efbc49f375c19c73f8e2ec4148?type=image/png'
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "App Profiles"
 metaTitle: "Palette Dev Engine for Enterprise Developers"
-metaDescription: "Explore Palette Dev Engine as Free Developers"
-hideToC: false
-fullWidth: false
+description: "Explore Palette Dev Engine as Free Developers"
+hide_table_of_contents: false
+
 ---
 
 

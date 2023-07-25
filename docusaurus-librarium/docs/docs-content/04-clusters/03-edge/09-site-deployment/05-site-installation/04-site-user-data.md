@@ -1,9 +1,9 @@
 ---
 title: "Apply Site User Data"
 metaTitle: "Site User Data"
-metaDescription: "Learn how to create a secondary Edge Installer configuration user data."
-hideToC: false
-fullWidth: false
+description: "Learn how to create a secondary Edge Installer configuration user data."
+hide_table_of_contents: false
+
 ---
 
 

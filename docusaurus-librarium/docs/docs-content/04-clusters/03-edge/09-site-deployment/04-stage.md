@@ -1,9 +1,9 @@
 ---
 title: "Prepare Edge Hosts for Installation"
 metaTitle: "Stage common user data and prepare edge host for installation"
-metaDescription: "Learn how to prepare edge hosts for installation before shipping them out to site for site installation"
-hideToC: false
-fullWidth: false
+description: "Learn how to prepare edge hosts for installation before shipping them out to site for site installation"
+hide_table_of_contents: false
+
 ---
 
 

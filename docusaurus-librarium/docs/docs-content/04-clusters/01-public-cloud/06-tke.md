@@ -1,9 +1,9 @@
 ---
 title: "Tencent-TKE"
 metaTitle: "Creating TKE clusters in Palette"
-metaDescription: "The methods of creating clusters for a speedy deployment on Tencent-TKE"
-hideToC: false
-fullWidth: false
+description: "The methods of creating clusters for a speedy deployment on Tencent-TKE"
+hide_table_of_contents: false
+
 ---
 
 

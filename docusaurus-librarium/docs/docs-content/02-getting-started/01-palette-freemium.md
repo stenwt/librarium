@@ -1,10 +1,10 @@
 ---
 title: "Try Palette for Free"
 metaTitle: "About Free Tier"
-metaDescription: "Palette Free Tier, Freemium, Free Tier"
+description: "Palette Free Tier, Freemium, Free Tier"
 icon: ""
-hideToC: true
-fullWidth: false
+hide_table_of_contents: true
+
 ---
 
 # Try Palette for Free

@@ -83,7 +83,6 @@ const wrapRef = React.createRef();
 
 function Point({ description, tooltipPlacement = "right", x, y, label }) {
   const [isVisited, setIsVisited] = useState(false);
-  const [isOpened, setIsOpened] = useState(false);
 
   return (
     <Tooltip
@@ -92,15 +91,8 @@ function Point({ description, tooltipPlacement = "right", x, y, label }) {
       title={description}
       color="#091e3b"
       placement={tooltipPlacement}
-      onVisibleChange={(visible) => setIsOpened(visible)}
     >
-      <Circle
-        x={x}
-        y={y}
-        isOpened={isOpened}
-        isVisited={isVisited}
-        onClick={() => setIsVisited(true)}
-      >
+      <Circle x={x} y={y} isVisited={isVisited} onClick={() => setIsVisited(true)}>
         <div>{label || "+"}</div>
       </Circle>
     </Tooltip>

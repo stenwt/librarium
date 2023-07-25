@@ -1,9 +1,9 @@
 ---
 title: "Azure"
 metaTitle: "Creating new clusters on Palette"
-metaDescription: "The methods of creating clusters for a speedy deployment on any CSP"
-hideToC: false
-fullWidth: false
+description: "The methods of creating clusters for a speedy deployment on any CSP"
+hide_table_of_contents: false
+
 ---
 
 

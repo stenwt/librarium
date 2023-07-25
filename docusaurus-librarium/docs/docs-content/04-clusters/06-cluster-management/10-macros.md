@@ -1,9 +1,9 @@
 ---
 title: "Palette Macros"
 metaTitle: "Palette Macros Support"
-metaDescription: "Apply Palette Macros to Cluster Profiles."
-hideToC: false
-fullWidth: false
+description: "Apply Palette Macros to Cluster Profiles."
+hide_table_of_contents: false
+
 ---
 
 

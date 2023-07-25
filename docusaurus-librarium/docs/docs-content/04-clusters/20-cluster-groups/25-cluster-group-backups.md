@@ -1,9 +1,9 @@
 ---
 title: "Enable Disk Backup on Virtual Clusters"
 metaTitle: "Enable Disk Backup on Virtual Clusters."
-metaDescription: "Learn how to configure disk and volume backup for virtual clusters in a cluster group."
-hideToC: false
-fullWidth: false
+description: "Learn how to configure disk and volume backup for virtual clusters in a cluster group."
+hide_table_of_contents: false
+
 ---
 
 

@@ -1,10 +1,10 @@
 ---
 title: "System Requirements"
 metaTitle: "On-premise System Requirements"
-metaDescription: "An overview of On-premise System Requirements"
+description: "An overview of On-premise System Requirements"
 icon: ""
-hideToC: true
-fullWidth: false
+hide_table_of_contents: true
+
 ---
 
 

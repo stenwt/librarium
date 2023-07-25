@@ -1,11 +1,11 @@
 ---
 title: "Postgres"
 metaTitle: "Palette Dev Engine Postgres Service"
-metaDescription: "Palette Dev Engine Postgres Service"
-hideToC: false
+description: "Palette Dev Engine Postgres Service"
+hide_table_of_contents: false
 type: "appTier"
 category: ['databases']
-fullWidth: false
+
 logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg'
 ---
 

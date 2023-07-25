@@ -1,10 +1,8 @@
 import React from "react";
 import Video from "./Video/index";
-import { Header1, Header2, Header3, generateHeadingId } from "./HeadTags/HeadTags";
-import AnchorTag from "./Anchor";
+import { Header1 } from "./HeadTags/HeadTags";
 
 const customMdxComponents = {
-  a: AnchorTag,
   img: (props) => {
     return <img alt="MDXimage" {...props} />;
   },

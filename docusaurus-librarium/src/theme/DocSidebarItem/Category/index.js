@@ -17,7 +17,7 @@ import Link from "@docusaurus/Link";
 import { translate } from "@docusaurus/Translate";
 import useIsBrowser from "@docusaurus/useIsBrowser";
 import DocSidebarItems from "@theme/DocSidebarItems";
-import IconMapper from "@site/src/components/QuickSetup/IconMapper";
+import IconMapper from "@site/src/components/Deprecated/QuickSetup/IconMapper";
 import styles from "./Category.module.css";
 // If we navigate to a category and it becomes active, it should automatically
 // expand itself

@@ -1,9 +1,9 @@
 ---
 title: "Node Labels and Taints"
 metaTitle: "Label and Taint the nodes"
-metaDescription: "Apply taints on node pools for appropriate node to pod scheduling."
-hideToC: false
-fullWidth: false
+description: "Apply taints on node pools for appropriate node to pod scheduling."
+hide_table_of_contents: false
+
 ---
 
 

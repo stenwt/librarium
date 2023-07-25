@@ -1,9 +1,9 @@
 ---
 title: "Cluster Removal"
 metaTitle: "Remove Cluster"
-metaDescription: "Learn how to remove a cluster deployed and managed by Palette."
-hideToC: false
-fullWidth: false
+description: "Learn how to remove a cluster deployed and managed by Palette."
+hide_table_of_contents: false
+
 ---
 
 

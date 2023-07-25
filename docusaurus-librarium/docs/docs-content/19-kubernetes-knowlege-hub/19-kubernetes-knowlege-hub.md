@@ -1,10 +1,8 @@
 ---
 title: "Kubernetes Knowledge Hub"
 metaTitle: "Kubernetes Knowledge Hub"
-metaDescription: "Kubernetes Knowledge Hub Respository"
-hideToCSidebar: true
-hideToC: true
-fullWidth: true
+description: "Kubernetes Knowledge Hub Respository"
+hide_table_of_contents: true
 sidebar_custom_props:
     icon: "bookmark"
 ---

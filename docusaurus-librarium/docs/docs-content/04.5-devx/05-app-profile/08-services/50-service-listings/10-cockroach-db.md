@@ -1,12 +1,12 @@
 ---
 title: "CockroachDB"
 metaTitle: "CockroachDB"
-metaDescription: "Learn how to use CockroachDB with Palette Dev Engine."
-hideToC: false
+description: "Learn how to use CockroachDB with Palette Dev Engine."
+hide_table_of_contents: false
 type: "appTier"
 category: ['databases']
 hiddenFromNav: false
-fullWidth: false
+
 logoUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Cockroach_Labs_Logo.png/220px-Cockroach_Labs_Logo.png"
 ---
 

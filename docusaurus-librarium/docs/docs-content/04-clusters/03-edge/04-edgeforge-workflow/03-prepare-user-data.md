@@ -1,9 +1,9 @@
 ---
 title: "Prepare User Data"
 metaTitle: "Prepare User Data - Stage user data"
-metaDescription: "Learn about building your staging user data"
-hideToC: false
-fullWidth: false
+description: "Learn about building your staging user data"
+hide_table_of_contents: false
+
 ---
 
 

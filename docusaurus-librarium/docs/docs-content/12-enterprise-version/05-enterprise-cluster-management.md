@@ -1,10 +1,10 @@
 ---
 title: "Enterprise  Management"
 metaTitle: "On-Premises Enterprise Management"
-metaDescription: " Features to enhance the enterprise clusters"
+description: " Features to enhance the enterprise clusters"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

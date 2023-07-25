@@ -1,9 +1,9 @@
 ---
 title: "Commands"
 metaTitle: "Commands"
-metaDescription: "Reference resource for all the supported Palette CLI commands."
-hideToC: false
-fullWidth: false
+description: "Reference resource for all the supported Palette CLI commands."
+hide_table_of_contents: false
+
 ---
 
 

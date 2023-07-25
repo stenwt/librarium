@@ -1,9 +1,9 @@
 ---
 title: "Register and Manage Azure Cloud Account"
 metaTitle: "Register and manage an Azure cloud account in Palette"
-metaDescription: "This guide will help you register and manage an Azure cloud account in Palette"
-hideToC: false
-fullWidth: false
+description: "This guide will help you register and manage an Azure cloud account in Palette"
+hide_table_of_contents: false
+
 ---
 
 
@@ -22,7 +22,7 @@ Palette supports deployment and managing Kubernetes clusters in an Azure account
 
 The following video demonstrates the integration of Azure Cloud with the Palette console.
 
-`video: title: "Azure-cloud-account": ./azure.mp4`
+<video title="Azure-cloud-account" src="/assets/videos/cluster-creation-videos/azure.mp4"></video>
 
 
 This guide will provide steps for how you can integrate your Azure account with Palette.

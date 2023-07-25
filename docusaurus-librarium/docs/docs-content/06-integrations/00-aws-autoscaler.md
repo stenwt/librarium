@@ -1,10 +1,11 @@
 ---
 title: 'AWS Cluster Autoscaler'
 metaTitle: 'AWS Cluster Autoscaler'
-metaDescription: 'AWS Cluster Autoscaler for Spectro Cloud Palette'
+description: 'AWS Cluster Autoscaler for Spectro Cloud Palette'
 hiddenFromNav: true
 type: "integration"
 category: ['system app']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.dev.spectrocloud.com/v1/aws-cluster-autoscaler/blobs/sha256:f86813591b3b63b3afcf0a604a7c8c715660448585e89174908f3c6a421ad8d8?type=image/png'
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "Palette Upgrade"
 metaTitle: "Palette Upgrade"
-metaDescription: "Troubleshooting steps for errors encountered with upgrade actions."
+description: "Troubleshooting steps for errors encountered with upgrade actions."
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

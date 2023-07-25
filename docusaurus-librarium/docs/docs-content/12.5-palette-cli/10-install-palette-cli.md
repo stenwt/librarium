@@ -1,9 +1,9 @@
 ---
 title: "Install"
 metaTitle: "Install"
-metaDescription: "Learn how to install the Palette CLI and how you can use the CLI with Palette Dev Engine."
-hideToC: false
-fullWidth: false
+description: "Learn how to install the Palette CLI and how you can use the CLI with Palette Dev Engine."
+hide_table_of_contents: false
+
 ---
 
 

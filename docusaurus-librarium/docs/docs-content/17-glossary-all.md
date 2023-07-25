@@ -1,9 +1,9 @@
 ---
 title: "Glossary"
 metaTitle: "Palette Glossary"
-metaDescription: "Palette Glossary"
-hideToC: false
-fullWidth: false
+description: "Palette Glossary"
+hide_table_of_contents: false
+
 sidebar_custom_props:
   icon: "about"
 ---

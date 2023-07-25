@@ -1,9 +1,9 @@
 ---
 title: "Deployment & Management"
 metaTitle: "Palette Edge Deployment"
-metaDescription: "Learn how to deploy Palette Edge."
-hideToC: false
-fullWidth: false
+description: "Learn how to deploy Palette Edge."
+hide_table_of_contents: false
+
 hiddenFromNav: true
 ---
 

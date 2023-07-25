@@ -1,9 +1,9 @@
 ---
 title: "Cluster Access Control"
 metaTitle: "Cluster Access Control"
-metaDescription: "Learn how to manage and administer access control to clusters through tags."
-hideToC: false
-fullWidth: false
+description: "Learn how to manage and administer access control to clusters through tags."
+hide_table_of_contents: false
+
 ---
 
 

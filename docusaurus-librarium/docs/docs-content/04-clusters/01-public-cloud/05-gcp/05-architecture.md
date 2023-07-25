@@ -1,9 +1,9 @@
 ---
 title: "Architecture"
 metaTitle: "GCP Architecture with Palette"
-metaDescription: "Learn about the architecture used to support Google Cloud using Palette."
-hideToC: false
-fullWidth: false
+description: "Learn about the architecture used to support Google Cloud using Palette."
+hide_table_of_contents: false
+
 ---
 
 

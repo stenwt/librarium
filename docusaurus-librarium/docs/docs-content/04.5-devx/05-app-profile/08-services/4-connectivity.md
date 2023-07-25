@@ -1,9 +1,9 @@
 ---
 title: "Service Connectivity"
 metaTitle: "Palette Dev Engine Database Connectivity"
-metaDescription: "Palette Dev Engine Database Connectivity"
-hideToC: false
-fullWidth: false
+description: "Palette Dev Engine Database Connectivity"
+hide_table_of_contents: false
+
 ---
 
 

@@ -1,11 +1,12 @@
 ---
 title: 'Cloudanix'
 metaTitle: 'cloudanix'
-metaDescription: 'The Cloudanix security pack provides a dashboard that displays threats and unusual behavior in Kubernetes containers in Palette' 
+description: 'The Cloudanix security pack provides a dashboard that displays threats and unusual behavior in Kubernetes containers in Palette' 
 hiddenFromNav: true
 type: "integration"
-hideToC: false
+hide_table_of_contents: false
 category: ['security']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://cloudanix-assets.s3.amazonaws.com/static/cloudanix-logo-p.png'
 ---
 

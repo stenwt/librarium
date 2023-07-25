@@ -1,9 +1,9 @@
 ---
 title: "Installer Configuration"
 metaTitle: "Edge Installer Configuration"
-metaDescription: "Review the available Edge Installer configuration options."
-hideToC: false
-fullWidth: false
+description: "Review the available Edge Installer configuration options."
+hide_table_of_contents: false
+
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Dev Engine Registries"
 metaTitle: "Palette Dev Engine for Enterprise Developers"
-metaDescription: "Palette Dev Engine Registries"
-hideToC: false
-fullWidth: false
+description: "Palette Dev Engine Registries"
+hide_table_of_contents: false
+
 ---
 
 

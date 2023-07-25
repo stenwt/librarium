@@ -1,9 +1,9 @@
 ---
 title: "Create a Registration Token"
 metaTitle: "Create a Registration Token"
-metaDescription: "Learn how to create a tenant registration token for Edge host registrations."
-hideToC: false
-fullWidth: false
+description: "Learn how to create a tenant registration token for Edge host registrations."
+hide_table_of_contents: false
+
 ---
 
 

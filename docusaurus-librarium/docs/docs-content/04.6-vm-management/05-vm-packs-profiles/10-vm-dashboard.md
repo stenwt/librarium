@@ -1,10 +1,10 @@
 ---
 title: "Spectro VM Dashboard"
 metaTitle: "Spectro VM Dashboard"
-metaDescription: "Learn about the Spectro VM Dashboard web interface to manage VMs."
+description: "Learn about the Spectro VM Dashboard web interface to manage VMs."
 icon: " "
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

@@ -1,10 +1,10 @@
 ---
 title: 'Add an Add-on Pack'
 metaTitle: 'Add an Add-on Pack'
-metaDescription: 'How to create custom made packs using Helm Charts and Manifests in Spectro Cloud'
+description: 'How to create custom made packs using Helm Charts and Manifests in Spectro Cloud'
 icon: ''
-hideToC: true
-fullWidth: false
+hide_table_of_contents: true
+
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Resize Virtual Clusters"
 metaTitle: "Resize Virtual Clusters"
-metaDescription: "Learn how to resize Palette Virtual Clusters"
-hideToC: false
-fullWidth: false
+description: "Learn how to resize Palette Virtual Clusters"
+hide_table_of_contents: false
+
 ---
 
 

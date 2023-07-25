@@ -1,10 +1,10 @@
 ---
 title: "Kubernetes Debugging"
 metaTitle: "Kubernetes Debugging Tips"
-metaDescription: "Learn tips and tricks related to Kubernetes dubbging."
+description: "Learn tips and tricks related to Kubernetes dubbging."
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

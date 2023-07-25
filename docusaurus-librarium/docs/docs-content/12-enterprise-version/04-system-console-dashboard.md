@@ -1,10 +1,10 @@
 ---
 title: "System Console Dashboard"
 metaTitle: "System Console Dashboard"
-metaDescription: "Understanding the super-admin settings in Palette's Enterprise (on-premise) variant."
+description: "Understanding the super-admin settings in Palette's Enterprise (on-premise) variant."
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

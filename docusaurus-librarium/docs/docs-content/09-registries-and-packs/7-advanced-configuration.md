@@ -1,10 +1,10 @@
 ---
 title: 'Advanced Configuration'
 metaTitle: 'Advanced Configuration'
-metaDescription: 'Learn how to apply advanced concepts by customizing the deployments of the Packs registry.'
+description: 'Learn how to apply advanced concepts by customizing the deployments of the Packs registry.'
 icon: ''
-hideToC: true
-fullWidth: false
+hide_table_of_contents: true
+
 ---
 
 

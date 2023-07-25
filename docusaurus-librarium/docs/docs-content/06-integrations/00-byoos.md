@@ -1,10 +1,11 @@
 ---
 title: "Bring Your Own OS (BYOOS)"
 metaTitle: "Bring your own OS (BYOOS)"
-metaDescription: "Bring Your Own OS (BYOOS) pack in Palette."
+description: "Bring Your Own OS (BYOOS) pack in Palette."
 hiddenFromNav: true
 type: "integration"
 category: ['operating system']
+sidebar_class_name: "hide_sidebar"
 logoUrl: "https://registry.dev.spectrocloud.com/v1/spectro-proxy/blobs/sha256:b6081bca439eeb01a8d43b3cb6895df4c088f80af978856ddc0da568e5c09365?type=image/png"
 ---
 

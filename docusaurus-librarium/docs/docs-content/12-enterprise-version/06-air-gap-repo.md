@@ -1,10 +1,10 @@
 ---
 title: "Install in an Air Gap Environment"
 metaTitle: "Install in an Air Gap Environment"
-metaDescription: "Learn how to install Palette into an air gap environment."
+description: "Learn how to install Palette into an air gap environment."
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

@@ -1,11 +1,10 @@
 ---
 title: "Maintenance Policy"
 metaTitle: "Packs Maintenance Policy"
-metaDescription: "Learn about Palette pack update and deprecation schedules."
+description: "Learn about Palette pack update and deprecation schedules."
 icon: ""
-hideToC: false
-fullWidth: true
-hideToCSidebar: false
+hide_table_of_contents: true
+sidebar_class_name: "hide_sidebar"
 ---
 
 import Packs from "@site/src/components/Integrations/Packs"

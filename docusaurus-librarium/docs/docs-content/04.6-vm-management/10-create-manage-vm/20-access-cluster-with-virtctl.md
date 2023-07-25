@@ -1,10 +1,10 @@
 ---
 title: "Access VM Cluster with virtctl"
 metaTitle: "Set up virtctl"
-metaDescription: "Set up KubeVirt virtctl to facilitate VM operations in the Spectro VM Dashboard web interface."
+description: "Set up KubeVirt virtctl to facilitate VM operations in the Spectro VM Dashboard web interface."
 icon: " "
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

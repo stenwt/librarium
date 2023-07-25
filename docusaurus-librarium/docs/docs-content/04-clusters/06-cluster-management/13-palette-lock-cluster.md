@@ -1,9 +1,9 @@
 ---
 title: "Platform Settings"
 metaTitle: "Platform Settings"
-metaDescription: "Platform Settings on Palette"
-hideToC: false
-fullWidth: false
+description: "Platform Settings on Palette"
+hide_table_of_contents: false
+
 ---
 
 

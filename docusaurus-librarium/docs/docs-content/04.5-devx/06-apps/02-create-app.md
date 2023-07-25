@@ -1,9 +1,9 @@
 ---
 title: "Create and Manage Apps"
 metaTitle: "Create and Manage Apps"
-metaDescription: "Learn how to create and manage an app in Palette Dev Engine."
-hideToC: false
-fullWidth: false
+description: "Learn how to create and manage an app in Palette Dev Engine."
+hide_table_of_contents: false
+
 ---
 
 

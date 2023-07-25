@@ -1,10 +1,10 @@
 ---
 title: "Cluster Monitoring Metrics"
 metaTitle: "Enterprise Cluster Monitoring Metrics"
-metaDescription: "Enterprise Cluster Monitoring Metrics for Palette's Enterprise (on-premises) variant."
+description: "Enterprise Cluster Monitoring Metrics for Palette's Enterprise (on-premises) variant."
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

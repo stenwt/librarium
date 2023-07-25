@@ -1,10 +1,10 @@
 ---
 title: "Install Using Quick-Start Mode"
 metaTitle: "Install Using Quick-Start Mode"
-metaDescription: "Learn how to install self-hosted Palette by deploying a single node instance."
+description: "Learn how to install self-hosted Palette by deploying a single node instance."
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

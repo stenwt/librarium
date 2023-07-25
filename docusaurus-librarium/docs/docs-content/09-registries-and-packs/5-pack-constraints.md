@@ -1,10 +1,10 @@
 ---
 title: "Pack Constraints"
 metaTitle: "Pack Constraints"
-metaDescription: "Description of pack constraints and their usages within Spectro Cloud"
+description: "Description of pack constraints and their usages within Spectro Cloud"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

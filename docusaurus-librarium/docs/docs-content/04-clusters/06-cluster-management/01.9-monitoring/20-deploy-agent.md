@@ -1,7 +1,7 @@
 ---
 title: 'Enable Monitoring on Host Cluster'
 metaTitle: 'Enable Monitoring on Host Cluster'
-metaDescription: 'Learn how to configure your host cluster to forward metrics to a Prometheus server.'
+description: 'Learn how to configure your host cluster to forward metrics to a Prometheus server.'
 hiddenFromNav: false
 ---
 

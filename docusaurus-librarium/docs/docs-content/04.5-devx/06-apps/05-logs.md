@@ -1,9 +1,9 @@
 ---
 title: "App Logs"
 metaTitle: "Palette Dev Engine App Logs"
-metaDescription: "Download Palette application logs."
-hideToC: false
-fullWidth: false
+description: "Download Palette application logs."
+hide_table_of_contents: false
+
 ---
 
 

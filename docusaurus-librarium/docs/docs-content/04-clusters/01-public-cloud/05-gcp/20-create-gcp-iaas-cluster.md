@@ -1,9 +1,9 @@
 ---
 title: "Create and Manage GCP IaaS Cluster"
 metaTitle: "Create and Manage GCP IaaS Cluster"
-metaDescription: "Learn how to add and manage an IaaS cluster deployed to GCP."
-hideToC: false
-fullWidth: false
+description: "Learn how to add and manage an IaaS cluster deployed to GCP."
+hide_table_of_contents: false
+
 ---
 
 

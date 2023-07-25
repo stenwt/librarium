@@ -1,10 +1,11 @@
 ---
 title: 'MetalLB'
 metaTitle: 'MetalLB'
-metaDescription: 'MetalLB Load Balancer pack in Spectro Cloud'
+description: 'MetalLB Load Balancer pack in Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
 category: ['load balancers']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/lb-metallb/blobs/sha256:3d09a1eab856a03d5b821062dcd1da624256e8f1e2ede404d88cb088d3adb945?type=image/png'
 ---
 

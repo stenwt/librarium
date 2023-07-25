@@ -1,10 +1,10 @@
 ---
 title: "Create and Manage VMs"
 metaTitle: "Create and Manage VMs"
-metaDescription: "Learn methods to create VMs using Palette's Spectro VM Dashboard."
+description: "Learn methods to create VMs using Palette's Spectro VM Dashboard."
 icon: " "
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

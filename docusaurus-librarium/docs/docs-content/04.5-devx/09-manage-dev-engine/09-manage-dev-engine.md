@@ -1,9 +1,9 @@
 ---
 title: "Manage Dev Engine"
 metaTitle: "Palette Dev Engine Management"
-metaDescription: "Palette Dev Engine Management"
-hideToC: false
-fullWidth: false
+description: "Palette Dev Engine Management"
+hide_table_of_contents: false
+
 ---
 
 

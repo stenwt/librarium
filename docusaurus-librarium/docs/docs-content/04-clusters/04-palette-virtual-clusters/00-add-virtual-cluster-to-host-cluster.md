@@ -1,10 +1,10 @@
 ---
 title: "Add Virtual Clusters to a Host Cluster"
 metaTitle: "Add Virtual Clusters to a Host Cluster"
-metaDescription: "How to add Palette Virtual Clusters to a Host Cluster"
+description: "How to add Palette Virtual Clusters to a Host Cluster"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

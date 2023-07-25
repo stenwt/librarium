@@ -1,10 +1,10 @@
 ---
 title: "Cluster Deployment"
 metaTitle: "Troubleshooting steps for errors during a cluster deployment"
-metaDescription: "Troubleshooting steps for errors during a cluster deployment."
+description: "Troubleshooting steps for errors during a cluster deployment."
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

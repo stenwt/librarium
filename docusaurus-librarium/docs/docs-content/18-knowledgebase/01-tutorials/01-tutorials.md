@@ -1,9 +1,9 @@
 ---
 title: "Tutorials"
 metaTitle: "Get started with some tutorials"
-metaDescription: "KnowledgeBase with Tutorials"
-hideToC: true
-fullWidth: false
+description: "KnowledgeBase with Tutorials"
+hide_table_of_contents: true
+
 sidebar_custom_props:
     icon: "laptop"
 ---

@@ -2,17 +2,12 @@ import React, { useState } from "react";
 import { Tooltip } from "antd";
 import styles from "./PointOfInterest.module.css";
 
-const wrapRef = React.createRef<HTMLDivElement>();
-
-function Point({ description, tooltipPlacement = "right", x, y, label }) {
+function Point({ description, tooltipPlacement = "right", x, y, label, wrapRef }) {
   const [isVisited, setIsVisited] = useState(false);
 
   return (
     <Tooltip
-      getPopupContainer={() =>
-        // @ts-ignore
-        wrapRef.current
-      }
+      getPopupContainer={() => wrapRef.current}
       trigger={["click"]}
       title={description}
       color="#091e3b"
@@ -20,9 +15,12 @@ function Point({ description, tooltipPlacement = "right", x, y, label }) {
       placement={tooltipPlacement}
     >
       <div
+        aria-hidden="true"
         style={{ top: `${y}px`, left: `${x}px` }}
         className={`${styles.circle} ${isVisited ? styles.isVisited : ""}`}
-        onClick={() => setIsVisited(true)}
+        onClick={() => {
+          setIsVisited(true);
+        }}
       >
         <div>{label || "+"}</div>
       </div>
@@ -32,6 +30,7 @@ function Point({ description, tooltipPlacement = "right", x, y, label }) {
 
 export default function PointsOfInterest({ points = [], children }) {
   const [offset, setOffset] = useState({ x: 0, y: 0 });
+  const wrapRef = React.createRef<HTMLDivElement>();
 
   return (
     <div
@@ -49,7 +48,7 @@ export default function PointsOfInterest({ points = [], children }) {
         }}
       >
         {points.map((point, index) => (
-          <Point {...point} index={index} key={index} />
+          <Point {...point} index={index} key={index} wrapRef={wrapRef} />
         ))}
       </div>
       {children}

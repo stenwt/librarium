@@ -1,9 +1,9 @@
 ---
 title: "Install and Manage MAAS Gateway"
 metaTitle: "Install and Manage MAAS Private Cloud Gateway"
-metaDescription: "Learn how to install and manage the MAAS Private Cloud Gateway in Palette."
-hideToC: false
-fullWidth: false
+description: "Learn how to install and manage the MAAS Private Cloud Gateway in Palette."
+hide_table_of_contents: false
+
 ---
 
 

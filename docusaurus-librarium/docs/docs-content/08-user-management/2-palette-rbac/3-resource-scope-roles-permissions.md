@@ -1,9 +1,9 @@
 ---
 title: "Palette Resource Roles"
 metaTitle: "Palette Global and Custom Resource Roles "
-metaDescription: "Palette contains global resource roles and supports the ability to create custom resource roles."
-hideToC: false
-fullWidth: false
+description: "Palette contains global resource roles and supports the ability to create custom resource roles."
+hide_table_of_contents: false
+
 ---
 
 

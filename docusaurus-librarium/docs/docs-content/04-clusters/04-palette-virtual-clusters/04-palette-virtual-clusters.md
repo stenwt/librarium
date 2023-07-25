@@ -1,9 +1,9 @@
 ---
 title: "Palette Virtual Clusters"
 metaTitle: "Create Palette virtual clusters"
-metaDescription: "Create virtual clusters in Palette"
-hideToC: false
-fullWidth: false
+description: "Create virtual clusters in Palette"
+hide_table_of_contents: false
+
 sidebar_custom_props:
     icon: "nodes"
 ---

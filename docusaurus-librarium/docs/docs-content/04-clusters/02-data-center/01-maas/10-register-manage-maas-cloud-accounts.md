@@ -1,9 +1,9 @@
 ---
 title: "Register and Manage MAAS Cloud Accounts"
 metaTitle: "Register and Manage MAAS Cloud Accounts"
-metaDescription: "Learn how to register and manage your MAAS cloud accounts in Palette."
-hideToC: false
-fullWidth: false
+description: "Learn how to register and manage your MAAS cloud accounts in Palette."
+hide_table_of_contents: false
+
 ---
 
 

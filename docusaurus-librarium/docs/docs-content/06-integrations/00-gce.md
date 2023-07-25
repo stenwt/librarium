@@ -1,10 +1,11 @@
 ---
 title: 'GCE-Persistent-Disk'
 metaTitle: 'GCE-Persistent-Disk'
-metaDescription: 'GCE Persistent Disk storage pack in Spectro Cloud'
+description: 'GCE Persistent Disk storage pack in Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
 category: ['storage']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.dev.spectrocloud.com/v1/csi-gcp/blobs/sha256:af4cf7923e75f0ca1fe109f423ff0551855019edfc1d8772653cede454ef87ea?type=image/png'
 ---
 

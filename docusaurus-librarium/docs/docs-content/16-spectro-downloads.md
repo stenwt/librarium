@@ -1,9 +1,9 @@
 ---
 title: "Downloads"
 metaTitle: "Spectro Downloads Artifacts"
-metaDescription: "Spectro Cloud Artifacts Downloads "
-hideToC: false
-fullWidth: false
+description: "Spectro Cloud Artifacts Downloads "
+hide_table_of_contents: false
+
 sidebar_custom_props:
     icon: "cloud-download-alt"
 ---

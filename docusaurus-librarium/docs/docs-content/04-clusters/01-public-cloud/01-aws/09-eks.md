@@ -1,9 +1,9 @@
 ---
 title: "Create and Manage AWS EKS Cluster"
 metaTitle: "Creating new AWS EKS clusters on Palette"
-metaDescription: "Learn how to deploy and manage AWS EKS clusters with Palette"
-hideToC: false
-fullWidth: false
+description: "Learn how to deploy and manage AWS EKS clusters with Palette"
+hide_table_of_contents: false
+
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Compliance"
 metaTitle: "Certification of Compliance"
-metaDescription: "Certification of Compliance"
-hideToC: false
-fullWidth: false
+description: "Certification of Compliance"
+hide_table_of_contents: false
+
 sidebar_custom_props:
     icon: "user-shield"
 ---

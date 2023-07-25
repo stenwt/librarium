@@ -1,9 +1,9 @@
 ---
 title: "Required IAM Permissions"
 metaTitle: "Required IAM Permissions"
-metaDescription: "A list of required IAM permissions that Palette requires for GCP deployments."
-hideToC: false
-fullWidth: false
+description: "A list of required IAM permissions that Palette requires for GCP deployments."
+hide_table_of_contents: false
+
 ---
 
 

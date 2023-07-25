@@ -1,10 +1,10 @@
 ---
 title: "Deploy a Virtual Cluster to a Cluster Group"
 metaTitle: "Deploy a Virtual Clusters to a Cluster Group"
-metaDescription: "How to add Palette Virtual Clusters to a Cluster Group"
+description: "How to add Palette Virtual Clusters to a Cluster Group"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

@@ -1,10 +1,10 @@
 ---
 title: "User Authentication"
 metaTitle: "API Key for API Authentication"
-metaDescription: "Palette's API key for user authentication for API access "
+description: "Palette's API key for user authentication for API access "
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

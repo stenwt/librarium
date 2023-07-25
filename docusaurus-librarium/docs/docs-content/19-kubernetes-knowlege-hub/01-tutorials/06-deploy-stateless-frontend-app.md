@@ -1,11 +1,10 @@
 ---
 title: 'Deploy a Stateless Frontend Application With Kubernetes'
 metaTitle: 'Deploy a Stateless Frontend Application With Kubernetes'
-metaDescription: 'One of the key benefits of using Kubernetes is that it provides a consistent and reliable way to deploy applications across different environments, including on-premises data centers and cloud infrastructure. Learn how to deploy a stateless frontend application in Kubernetes.'
+description: 'One of the key benefits of using Kubernetes is that it provides a consistent and reliable way to deploy applications across different environments, including on-premises data centers and cloud infrastructure. Learn how to deploy a stateless frontend application in Kubernetes.'
 icon: ""
-hideToC: false
-fullWidth: false
-hideToCSidebar: false
+hide_table_of_contents: false
+
 hiddenFromNav: false
 ---
 

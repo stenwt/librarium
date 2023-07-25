@@ -2,7 +2,7 @@
 title: "Register and Manage AWS Accounts"
 metaTitle: "Add an AWS Account to Palette"
 metaDescription: "Learn how to add an AWS account to Palette."
-hideToC: false
+hideToC: true
 fullWidth: false
 ---
 

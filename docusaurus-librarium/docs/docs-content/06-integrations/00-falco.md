@@ -1,10 +1,11 @@
 ---
 title: 'Falco'
 metaTitle: 'Falco Integration with Spectro Cloud'
-metaDescription: 'Integration of the Falco add on into Spectro Cloud'
+description: 'Integration of the Falco add on into Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
 category: ['security']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/falco/blobs/sha256:4e37461d0a31959ca8af65128329750ca3417e883e7e4ba17ee085b01a383a27?type=image/png'
 ---
 

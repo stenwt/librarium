@@ -1,10 +1,11 @@
 ---
 title: 'nfs-subdir-External'
 metaTitle: 'nfs-subdir-external'
-metaDescription: 'NFS-Subdir-External Provisioner pack in Spectro Cloud'
+description: 'NFS-Subdir-External Provisioner pack in Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
 category: ['storage']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.dev.spectrocloud.com/v1/csi-nfs-subdir-external/blobs/sha256:4b40eb85382d04dc4dcfc174b5e288b963b6201f6915e14b07bd8a5c4323b51b?type=image/png'
 ---
 

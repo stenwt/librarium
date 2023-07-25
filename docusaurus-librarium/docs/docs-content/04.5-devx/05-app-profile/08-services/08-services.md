@@ -1,9 +1,9 @@
 ---
 title: "Services"
 metaTitle: "Palette Dev Engine App Services"
-metaDescription: "Palette Dev Engine App Services"
-hideToC: false
-fullWidth: false
+description: "Palette Dev Engine App Services"
+hide_table_of_contents: false
+
 ---
 
 # Services

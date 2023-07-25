@@ -1,9 +1,9 @@
 ---
 title: "Apps"
 metaTitle: "Palette Dev Engine for Enterprise Developerss"
-metaDescription: "Explore Palette Dev Engine as Free Developers"
-hideToC: false
-fullWidth: false
+description: "Explore Palette Dev Engine as Free Developers"
+hide_table_of_contents: false
+
 ---
 
 

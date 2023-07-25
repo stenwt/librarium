@@ -1,10 +1,11 @@
 ---
 title: 'Istio'
 metaTitle: 'Istio Service Mesh in Spectro Cloud'
-metaDescription: 'Choosing Istio as a Service Mesh app within the Spectro Cloud console'
+description: 'Choosing Istio as a Service Mesh app within the Spectro Cloud console'
 hiddenFromNav: true
 type: "integration"
 category: ['service mesh']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/istio/blobs/sha256:c80cf596d4859261ab892e987f835bd11161bd139dd8e4147b652c6b93924cb2?type=image/png'
 ---
 

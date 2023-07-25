@@ -1,10 +1,10 @@
 ---
 title: "Project Scope Roles and Permissions"
 metaTitle: "Project Roles"
-metaDescription: "The list of Global Project Roles under Project Scope"
+description: "The list of Global Project Roles under Project Scope"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

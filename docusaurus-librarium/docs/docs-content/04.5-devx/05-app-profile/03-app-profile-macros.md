@@ -1,9 +1,9 @@
 ---
 title: "Output Variables"
 metaTitle: "Palette Dev Engine Output Variables"
-metaDescription: "Explore Palette Dev Engine App Profile Macros"
-hideToC: false
-fullWidth: false
+description: "Explore Palette Dev Engine App Profile Macros"
+hide_table_of_contents: false
+
 ---
 
 

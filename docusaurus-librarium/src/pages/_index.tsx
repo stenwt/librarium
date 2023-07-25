@@ -1,9 +1,9 @@
 import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import QuickSetup from "@site/src/components/QuickSetup";
-import CloudsSection from "@site/src/components/CloudSection";
-import MainHeader from "@site/src/components/MainHeader/MainHeader";
+import QuickSetup from "@site/src/components/Deprecated/QuickSetup/index";
+import CloudSection from "@site/src/components/Deprecated/CloudSection/index";
+import MainHeader from "@site/src/components/Deprecated/MainHeader/MainHeader";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -90,7 +90,7 @@ export default function Home(): JSX.Element {
             },
           ]}
         />
-        <CloudsSection
+        <CloudSection
           title="Detailed Setup"
           noBorder
           description="An insight into the procedures for creating clusters on public clouds as well as private clouds. Google Cloud Platform and Bare-metal coming soon!"
@@ -122,7 +122,7 @@ export default function Home(): JSX.Element {
             },
           ]}
         />
-        <CloudsSection
+        <CloudSection
           options={[
             {
               title: "VMware",

@@ -1,9 +1,9 @@
 ---
 title: "Required Network Rules"
 metaTitle: "Required Network Rules"
-metaDescription: "Cox Edge deployments require the following network rules for a successful Palette deployment."
-hideToC: false
-fullWidth: false
+description: "Cox Edge deployments require the following network rules for a successful Palette deployment."
+hide_table_of_contents: false
+
 ---
 
 

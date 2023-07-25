@@ -1,9 +1,9 @@
 ---
 title: "Cluster Resource Filter"
 metaTitle: "Create and Add Cluster Resource Filter "
-metaDescription: "Create and Add Cluster Resource Filter"
-hideToC: false
-fullWidth: false
+description: "Create and Add Cluster Resource Filter"
+hide_table_of_contents: false
+
 ---
 
 

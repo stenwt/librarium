@@ -1,10 +1,10 @@
 ---
 title: "Manage Single Sign-On (SSO)"
 metaTitle: "Manage Single Sign-On (SSO)"
-metaDescription: "Learn how to configure SSO for Palette Dev Engine."
+description: "Learn how to configure SSO for Palette Dev Engine."
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

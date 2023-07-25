@@ -1,10 +1,10 @@
 ---
 title: "OCI Registry"
 metaTitle: "Spectro Cloud OCI Registry"
-metaDescription: "creation and usages of OCI Registry within Spectro Cloud"
+description: "creation and usages of OCI Registry within Spectro Cloud"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

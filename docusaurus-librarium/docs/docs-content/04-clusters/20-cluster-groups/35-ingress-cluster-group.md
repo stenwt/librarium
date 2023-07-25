@@ -1,9 +1,9 @@
 ---
 title: "Set Up Ingress"
 metaTitle: "Set Up Ingress for Cluster Groups"
-metaDescription: "Learn how to configure Ingress for a Palette Cluster Group"
-hideToC: false
-fullWidth: false
+description: "Learn how to configure Ingress for a Palette Cluster Group"
+hide_table_of_contents: false
+
 ---
 
 

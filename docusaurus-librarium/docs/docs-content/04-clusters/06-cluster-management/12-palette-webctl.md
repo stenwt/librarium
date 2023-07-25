@@ -1,9 +1,9 @@
 ---
 title: "Kubectl"
 metaTitle: "Web kubectl CLI on Palette"
-metaDescription: "Web kubectl CLI on Palette for cluster access"
-hideToC: false
-fullWidth: false
+description: "Web kubectl CLI on Palette for cluster access"
+hide_table_of_contents: false
+
 ---
 
 

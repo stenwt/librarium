@@ -1,10 +1,10 @@
 ---
 title: "Deploy VM From a Template"
 metaTitle: "Deploy VM From a Template"
-metaDescription: "Learn how to deploy a VM from a template using Spectro VM Dashboard."
+description: "Learn how to deploy a VM from a template using Spectro VM Dashboard."
 icon: " "
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

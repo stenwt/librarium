@@ -1,10 +1,10 @@
 ---
 title: "Workspace Management"
 metaTitle: "The additional features to optimize workspace performance"
-metaDescription: "How to get unified view of workloads in logically grouped namespaces and clusters"
+description: "How to get unified view of workloads in logically grouped namespaces and clusters"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

@@ -1,10 +1,11 @@
 ---
 title: 'heart-beat'
 metaTitle: 'heart-beat'
-metaDescription: 'Heart Beat monitoring pack in Spectro Cloud'
+description: 'Heart Beat monitoring pack in Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
 category: ['monitoring']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.dev.spectrocloud.com/v1/heartbeat/blobs/sha256:19fec69ae172c3e54d5fb09c176517cf7bfeb1bc740bde65c200e14115510313?type=image/png'
 ---
 

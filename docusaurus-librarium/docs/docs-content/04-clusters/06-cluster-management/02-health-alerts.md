@@ -1,9 +1,9 @@
 ---
 title: "Cluster Health Alerts"
 metaTitle: "Cluster Health Alerts on Palette"
-metaDescription: "Cluster Health Alerts"
-hideToC: false
-fullWidth: false
+description: "Cluster Health Alerts"
+hide_table_of_contents: false
+
 ---
 
 

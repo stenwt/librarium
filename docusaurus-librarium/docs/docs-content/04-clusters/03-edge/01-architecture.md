@@ -1,9 +1,9 @@
 ---
 title: "Architecture"
 metaTitle: "Palette Edge Architecture"
-metaDescription: "Learn about Palette Edge and the architecture used to suppport edge clusters."
-hideToC: false
-fullWidth: false
+description: "Learn about Palette Edge and the architecture used to suppport edge clusters."
+hide_table_of_contents: false
+
 ---
 
 

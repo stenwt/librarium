@@ -1,10 +1,10 @@
 ---
 title: "Enable Audit Logging"
 metaTitle: "Enable API Audit Logging"
-metaDescription: "Learn how to configure the kube-apiserver audit logging feature for Palette."
+description: "Learn how to configure the kube-apiserver audit logging feature for Palette."
 icon: ""
-hideToC: true
-fullWidth: false
+hide_table_of_contents: true
+
 ---
 
 

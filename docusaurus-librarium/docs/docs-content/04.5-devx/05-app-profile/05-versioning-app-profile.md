@@ -1,9 +1,9 @@
 ---
 title: "App Profile Versioning"
 metaTitle: "Palette Dev Engine App Profile Versioning"
-metaDescription: "Learn about App Profile Versioning, what it is, how to create a version, and how to manage a version."
-hideToC: false
-fullWidth: false
+description: "Learn about App Profile Versioning, what it is, how to create a version, and how to manage a version."
+hide_table_of_contents: false
+
 ---
 
 

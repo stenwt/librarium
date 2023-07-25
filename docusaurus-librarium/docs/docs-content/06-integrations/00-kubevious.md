@@ -1,11 +1,12 @@
 ---
 title: 'Kubevious'
 metaTitle: 'Kubevious'
-metaDescription: 'Kubevious Monitoring pack in Spectro Cloud'
+description: 'Kubevious Monitoring pack in Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
-hideToC: false
+hide_table_of_contents: false
 category: ['monitoring']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/kubevious/blobs/sha256:5e33d7b51b1317a834b4552d96fc1cc8463000a7eedbcb4b784ea07236f3d7f7?type=image/png'
 ---
 

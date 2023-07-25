@@ -1,9 +1,9 @@
 ---
 title: "Register Edge Host"
 metaTitle: "Register your edge hosts with the Palette Management Console"
-metaDescription: "Learn how to register your edge hosts with the Palette Management Console"
-hideToC: false
-fullWidth: false
+description: "Learn how to register your edge hosts with the Palette Management Console"
+hide_table_of_contents: false
+
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Manage Clusters"
 metaTitle: "Managing Cluster Update Events on Palette"
-metaDescription: "Events and Notifications on Cluster Updates"
-hideToC: false
-fullWidth: false
+description: "Events and Notifications on Cluster Updates"
+hide_table_of_contents: false
+
 sidebar_custom_props:
     icon: "envelope-open-text"
 ---

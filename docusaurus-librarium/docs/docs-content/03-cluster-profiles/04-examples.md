@@ -1,10 +1,10 @@
 ---
 title: "Cluster Profile Examples"
 metaTitle: "Cluster Profile Examples"
-metaDescription: "The method for creating a Cluster Profile for AWS on Spectro Cloud"
+description: "The method for creating a Cluster Profile for AWS on Spectro Cloud"
 icon: ""
-hideToC: true
-fullWidth: false
+hide_table_of_contents: true
+
 ---
 
 

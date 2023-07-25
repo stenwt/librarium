@@ -1,9 +1,9 @@
 ---
 title: "Create and Manage Azure IaaS Cluster"
 metaTitle: "Creating new Azure clusters on Palette"
-metaDescription: "The methods of creating an Azure cluster in Palette"
-hideToC: false
-fullWidth: false
+description: "The methods of creating an Azure cluster in Palette"
+hide_table_of_contents: false
+
 ---
 
 
@@ -39,7 +39,7 @@ The following prerequisites must be met before deploying a workload cluster in A
 
 ## Video Demonstration
 
-`video: title: "azure-cluster-creation": azure.mp4`
+<video title="azure-cluster-creation" src="/assets/videos/cluster-creation-videos/azure.mp4"></video>
 
 ## Deploy an Azure Cluster with Palette
 

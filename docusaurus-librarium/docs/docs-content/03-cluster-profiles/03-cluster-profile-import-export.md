@@ -1,10 +1,10 @@
 ---
 title: "Import Export Cluster Profiles"
 metaTitle: "Import and Export Palette Cluster Profiles"
-metaDescription: "The method for importing and exporting Cluster Profile on Spectro Cloud"
+description: "The method for importing and exporting Cluster Profile on Spectro Cloud"
 icon: ""
-hideToC: true
-fullWidth: false
+hide_table_of_contents: true
+
 ---
 
 

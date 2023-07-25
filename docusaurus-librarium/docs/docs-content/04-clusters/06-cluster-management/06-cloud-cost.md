@@ -1,9 +1,9 @@
 ---
 title: "Cost Visibility"
 metaTitle: "Calculate Cloud Cost in Spectro Cloud"
-metaDescription: "Calculate Cloud Cost in Palette"
-hideToC: false
-fullWidth: false
+description: "Calculate Cloud Cost in Palette"
+hide_table_of_contents: false
+
 ---
 
 

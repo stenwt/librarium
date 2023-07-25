@@ -1,10 +1,10 @@
 ---
 title: "Palette Dashboard"
 metaTitle: "Palette Dashboard"
-metaDescription: "Spectro Cloud Palette Dashboard"
+description: "Spectro Cloud Palette Dashboard"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 import Tooltip from "@site/src/components/Tooltip";

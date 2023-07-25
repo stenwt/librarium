@@ -1,11 +1,12 @@
 ---
 title: 'Outcold Solutions'
 metaTitle: 'Outcold Solutions'
-metaDescription: 'Outcold Solutions - Monitoring pack in Spectro Cloud'
+description: 'Outcold Solutions - Monitoring pack in Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
-hideToC: false
+hide_table_of_contents: false
 category: ['monitoring']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/outcold-monitoring/blobs/sha256:3140960d1f39649ad821cfc59450d3c164079b03d15387b2e638eae07442af41?type=image/png'
 ---
 

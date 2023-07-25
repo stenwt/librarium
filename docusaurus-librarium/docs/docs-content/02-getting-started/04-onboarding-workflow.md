@@ -1,11 +1,10 @@
 ---
 title: "Palette Onboarding Workflow"
 metaTitle: "Palette Onboarding Workflow"
-metaDescription: "Palette Onboarding Workflow"
+description: "Palette Onboarding Workflow"
 icon: ""
-hideToC: true
-fullWidth: false
-hideToCSidebar: true
+hide_table_of_contents: true
+
 ---
 
 import PointsOfInterest from '@site/src/components/PointOfInterest';

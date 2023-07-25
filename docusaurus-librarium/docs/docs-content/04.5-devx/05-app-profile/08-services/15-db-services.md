@@ -1,10 +1,10 @@
 ---
 title: "Databases"
 metaTitle: "Palette Dev Engine Database Services"
-metaDescription: "Explore Palette Dev Engine Database Services"
+description: "Explore Palette Dev Engine Database Services"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

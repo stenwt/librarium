@@ -1,10 +1,10 @@
 ---
 title: "Login Banner"
 metaTitle: "Login Banner"
-metaDescription: "Learn how to set a login banner for your Palette tenant."
+description: "Learn how to set a login banner for your Palette tenant."
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

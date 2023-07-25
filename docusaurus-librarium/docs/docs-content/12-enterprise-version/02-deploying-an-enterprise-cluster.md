@@ -1,10 +1,10 @@
 ---
 title: "Migrate Cluster to Enterprise Mode"
 metaTitle: "Migrate Cluster to Enterprise Mode"
-metaDescription: "Learn how to convert a self-hosted single node cluster to a highly available three node cluster."
+description: "Learn how to convert a self-hosted single node cluster to a highly available three node cluster."
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

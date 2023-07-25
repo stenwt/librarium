@@ -1,9 +1,9 @@
 ---
 title: "Brownfield Clusters"
 metaTitle: "Managing brownfield clusters on Palette"
-metaDescription: "Importing and managing brownfield clusters provisioned on any CSP using other orchestration tools"
-hideToC: false
-fullWidth: false
+description: "Importing and managing brownfield clusters provisioned on any CSP using other orchestration tools"
+hide_table_of_contents: false
+
 sidebar_custom_props:
     icon: "cloud-download-alt"
 ---
@@ -223,8 +223,9 @@ If there are any cloud resources still on the cloud, the user should clean up th
 
 ## EKS Cluster Import to Palette Console
 
-`video: title: "eks cluster import": cluster-import/eks.mp4`
+
+<video title="eks cluster import" src="/assets/videos/eks.mp4"></video>
 
 ## Generic Cluster Import to Palette Console
 
-`video: title: "generic cluster import": cluster-import/generic.mp4`
+<video title="generic cluster import" src="/assets/videos/generic.mp4"></video>

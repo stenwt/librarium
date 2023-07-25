@@ -1,9 +1,9 @@
 ---
 title: "Create and Manage Azure AKS Cluster"
 metaTitle: "Creating new clusters on Palette"
-metaDescription: "The methods of creating clusters for a speedy deployment on any CSP"
-hideToC: false
-fullWidth: false
+description: "The methods of creating clusters for a speedy deployment on any CSP"
+hide_table_of_contents: false
+
 ---
 
 
@@ -72,7 +72,7 @@ Palette **also** enables the provisioning of private AKS clusters via a private 
 
 # Create an Azure Cloud Account
 
-`video: title: "Azure-cloud-account": azure.mp4`
+<video title="azure-cluster-creation" src="/assets/videos/cluster-creation-videos/azure.mp4"></video>
 
 To create an Azure cloud account, we need:
 
@@ -104,7 +104,8 @@ For Azure cloud account creation, we first need to create an Azure Active Direct
 <br />
 
 
-`video: title: "aks-cluster-creation": aks.mp4`
+<video title="aks-cluster-creation" src="/assets/videos/cluster-creation-videos/aks.mp4"></video>
+
 
 
 The following steps need to be performed to provision a new cluster:

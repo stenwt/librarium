@@ -1,9 +1,9 @@
 ---
 title: "Container Deployment"
 metaTitle: "Palette Dev Engine App Profile Container Deployment"
-metaDescription: "Palette Dev Engine App Profile Container Deployment"
-hideToC: false
-fullWidth: false
+description: "Palette Dev Engine App Profile Container Deployment"
+hide_table_of_contents: false
+
 ---
 
 

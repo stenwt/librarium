@@ -1,9 +1,9 @@
 ---
 title: "NOC-UI"
 metaTitle: "Clusters Location view on Map - NOC UI"
-metaDescription: "Clusters Location view on Map - NOC UI"
-hideToC: false
-fullWidth: false
+description: "Clusters Location view on Map - NOC UI"
+hide_table_of_contents: false
+
 ---
 
 

@@ -1,10 +1,11 @@
 ---
 title: 'Spectro Kubernetes Dashboard'
 metaTitle: "Spectro Cloud's Preconfigured Kubernetes Dashboard"
-metaDescription: 'The Preconfigured Kubernetes Dashboard Monitoring pack in Palette reduces the complexity of standing up the Kubernetes dashboard for a cluster'
+description: 'The Preconfigured Kubernetes Dashboard Monitoring pack in Palette reduces the complexity of standing up the Kubernetes dashboard for a cluster'
 hiddenFromNav: true
 type: "integration"
 category: ["monitoring"]
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/k8s-dashboard/blobs/sha256:2de5d88b2573af42d4cc269dff75744c4174ce47cbbeed5445e51a2edd8b7429?type=image/png'
 ---
 

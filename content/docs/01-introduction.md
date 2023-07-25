@@ -4,6 +4,7 @@ metaTitle: "What is Palette?"
 metaDescription: "Learn what Spectro Cloud's Palette platform is, and how it reduce the complexities your encounter today with Kubernetes."
 icon: ""
 hideToC: true
+hideToCSidebar: true
 fullWidth: false
 ---
  

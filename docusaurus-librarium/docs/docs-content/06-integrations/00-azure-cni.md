@@ -1,10 +1,11 @@
 ---
 title: 'Azure CNI'
 metaTitle: 'Azure CNI'
-metaDescription: 'Azure CNI network pack for Palette AKS Clusters'
+description: 'Azure CNI network pack for Palette AKS Clusters'
 hiddenFromNav: true
 type: "integration"
 category: ['network']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.dev.spectrocloud.com/v1/csi-azure/blobs/sha256:0787b7943741181181823079533cd363884a28aa0651715ea43408bdc77a5c51?type=image/png'
 ---
 

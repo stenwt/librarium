@@ -1,10 +1,10 @@
 ---
 title: "Tenant Scope Roles and Permissions"
 metaTitle: "Tenant Roles"
-metaDescription: "The list of Global Tenant Roles under Tenant Scope"
+description: "The list of Global Tenant Roles under Tenant Scope"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

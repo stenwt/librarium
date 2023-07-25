@@ -1,9 +1,9 @@
 ---
 title: "Projects"
 metaTitle: "Concept: Projects"
-metaDescription: "Understanding what Spectro Cloud projects are"
-hideToC: false
-fullWidth: false
+description: "Understanding what Spectro Cloud projects are"
+hide_table_of_contents: false
+
 sidebar_custom_props:
     icon: "cog"
 ---

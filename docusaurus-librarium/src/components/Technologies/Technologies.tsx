@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
 import Fuse from "fuse.js";
-import Link from "@site/src/components/Link";
+import Link from "@docusaurus/Link";
 import styles from "./Technologies.module.css";
 import Search from "./Search";
 import CategorySelector from "./CategorySelector";

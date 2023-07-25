@@ -1,10 +1,10 @@
 ---
 title: "Take a VM Snapshot"
 metaTitle: "Take a Snapshot of the VM"
-metaDescription: "Learn how to snapshot a VM using Spectro VM Dashboard."
+description: "Learn how to snapshot a VM using Spectro VM Dashboard."
 icon: " "
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

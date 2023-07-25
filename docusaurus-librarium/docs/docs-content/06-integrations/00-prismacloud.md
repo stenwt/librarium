@@ -1,10 +1,11 @@
 ---
 title: 'prisma-cloud-compute'
 metaTitle: 'prisma-cloud-compute'
-metaDescription: 'prism-cloud-compute Security pack in Spectro Cloud'
+description: 'prism-cloud-compute Security pack in Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
 category: ['security']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.dev.spectrocloud.com/v1/prismacloud/blobs/sha256:9ddb035af0e9f299e5df178ebb3153e90383a5e42ded2c1a3f6c9470dd851c12?type=image/png'
 ---
 

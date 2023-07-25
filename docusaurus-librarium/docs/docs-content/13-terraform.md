@@ -1,10 +1,10 @@
 ---
 title: "Palette Terraform Support"
 metaTitle: "Palette Terraform Support"
-metaDescription: "Understanding, installing and operating Spectro Cloud's Terraform Provider."
+description: "Understanding, installing and operating Spectro Cloud's Terraform Provider."
 
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 sidebar_custom_props:
     icon: "terraform"
 ---

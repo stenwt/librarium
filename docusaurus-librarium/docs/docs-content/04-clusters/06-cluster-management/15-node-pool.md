@@ -1,9 +1,9 @@
 ---
 title: "Node Pools"
 metaTitle: "Node Pools"
-metaDescription: "Learn about the node pools and applying changes to a node pool."
-hideToC: false
-fullWidth: false
+description: "Learn about the node pools and applying changes to a node pool."
+hide_table_of_contents: false
+
 ---
 
 

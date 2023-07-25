@@ -1,10 +1,11 @@
 ---
 title: 'Portworx'
 metaTitle: 'Portworx Integration with Spectro Cloud'
-metaDescription: 'Portworx storage integration for on-prem installations'
+description: 'Portworx storage integration for on-prem installations'
 hiddenFromNav: true
 type: "integration"
 category: ['storage']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/csi-portworx/blobs/sha256:e27bc9aaf22835194ca38062061c29b5921734eed922e57d693d15818ade7486?type=image/png'
 ---
 

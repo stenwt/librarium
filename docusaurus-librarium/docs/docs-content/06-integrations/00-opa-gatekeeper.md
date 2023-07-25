@@ -1,10 +1,11 @@
 ---
 title: 'OpenPolicyAgent'
 metaTitle: 'OpenPolicyAgent'
-metaDescription: 'OpenPolicyAgent security pack in Spectro Cloud'
+description: 'OpenPolicyAgent security pack in Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
 category: ['security']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.dev.spectrocloud.com/v1/open-policy-agent/blobs/sha256:fcbad202dc9ca5e7a756562d8f9fc180ee77474034447dabc302d8a5a2bbe148?type=image/png" alt="OpenPolicyAgent logo'
 ---
 

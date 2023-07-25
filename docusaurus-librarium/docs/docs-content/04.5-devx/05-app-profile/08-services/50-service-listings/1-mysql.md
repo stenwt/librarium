@@ -1,11 +1,11 @@
 ---
 title: "MySQL"
 metaTitle: "Palette Dev Engine MySQL Service"
-metaDescription: "Palette Dev Engine MySQL Service"
-hideToC: false
+description: "Palette Dev Engine MySQL Service"
+hide_table_of_contents: false
 type: "appTier"
 category: ['databases']
-fullWidth: false
+
 logoUrl: "https://registry.dev.spectrocloud.com/v1/mysql-operator/blobs/sha256:2d59bc428916752528280eac03330d712164163e2f3c476409f5c25d8a7c2778?type=image/png"
 ---
 

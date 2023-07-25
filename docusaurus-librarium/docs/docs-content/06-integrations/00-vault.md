@@ -1,11 +1,12 @@
 ---
 title: 'Vault'
 metaTitle: 'Vault Integration with Spectro Cloud'
-metaDescription: 'Integration of the Vault add on into Spectro Cloud'
+description: 'Integration of the Vault add on into Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
-hideToC: false
+hide_table_of_contents: false
 category: ['security']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/vault/blobs/sha256:1abda0173be1fd4ddfeccd2ff15089edd38a25e433ad7bb562a770d92992c7af?type=image/png'
 ---
 

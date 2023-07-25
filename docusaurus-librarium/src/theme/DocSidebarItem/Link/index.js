@@ -6,7 +6,7 @@ import Link from "@docusaurus/Link";
 import isInternalUrl from "@docusaurus/isInternalUrl";
 import IconExternalLink from "@theme/Icon/ExternalLink";
 import styles from "./styles.module.css";
-import IconMapper from "@site/src/components/QuickSetup/IconMapper";
+import IconMapper from "@site/src/components/Deprecated/QuickSetup/IconMapper";
 
 export default function DocSidebarItemLink({
   item,

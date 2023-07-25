@@ -1,9 +1,9 @@
 ---
 title: "App Profile Cloning"
 metaTitle: "Palette Dev Engine App Profile Cloning"
-metaDescription: "Palette Dev Engine App Profile Cloning"
-hideToC: false
-fullWidth: false
+description: "Palette Dev Engine App Profile Cloning"
+hide_table_of_contents: false
+
 ---
 
 

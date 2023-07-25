@@ -1,10 +1,11 @@
 ---
 title: 'generic-vm-vsphere'
 metaTitle: 'Generic Virtual Machine vSphere'
-metaDescription: 'Choosing vSphere Generic Virtual Machine within the Palette console'
+description: 'Choosing vSphere Generic Virtual Machine within the Palette console'
 hiddenFromNav: true
 type: "integration"
 category: ['system app']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/generic-vm-vsphere/blobs/sha256:3b121dca3cbc7fed0153d3e1c8c3df20076ec200e091085a3a281ba08cb2261e?type=image/png'
 ---
 

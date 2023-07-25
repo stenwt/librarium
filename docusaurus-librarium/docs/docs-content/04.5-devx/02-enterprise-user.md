@@ -1,9 +1,9 @@
 ---
 title: "Use Cases"
 metaTitle: "PDE Use Cases"
-metaDescription: "Explore Palette DevX use cases."
-hideToC: false
-fullWidth: false
+description: "Explore Palette DevX use cases."
+hide_table_of_contents: false
+
 ---
 
 

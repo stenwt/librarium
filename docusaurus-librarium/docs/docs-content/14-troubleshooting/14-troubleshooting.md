@@ -1,9 +1,9 @@
 ---
 title: "Troubleshooting"
 metaTitle: "Common issues and their solutions"
-metaDescription: "Common issues and their solutions in the deployment of Spectro Cloud Clusters"
-hideToC: false
-fullWidth: false
+description: "Common issues and their solutions in the deployment of Spectro Cloud Clusters"
+hide_table_of_contents: false
+
 sidebar_custom_props:
     icon: "tools"
 ---

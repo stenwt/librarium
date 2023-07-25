@@ -1,10 +1,9 @@
 ---
 title: "What is Palette?"
 metaTitle: "What is Palette?"
-metaDescription: "Learn what Spectro Cloud's Palette platform is, and how it reduce the complexities your encounter today with Kubernetes."
+description: "Learn what Spectro Cloud's Palette platform is, and how it reduce the complexities your encounter today with Kubernetes."
 icon: ""
-hideToC: true
-fullWidth: false
+hide_table_of_contents: true
 slug: /
 ---
 

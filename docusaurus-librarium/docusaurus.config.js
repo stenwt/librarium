@@ -16,6 +16,25 @@ function generateIntegrationData(allContent) {
   return packsData;
 }
 
+const ignoredPrefixPattern = /^\d+[-_]\d+/;
+
+const numberPrefixPattern = /^(?<numberPrefix>\d+\.?\d*)\s*[-_.]+\s*(?<suffix>[^-_.\s].*)$/;
+
+const numberPrefixParser = (filename) => {
+  if (ignoredPrefixPattern.test(filename)) {
+    return { filename, numberPrefix: undefined };
+  }
+  const match = numberPrefixPattern.exec(filename);
+  if (!match) {
+    return { filename, numberPrefix: undefined };
+  }
+
+  return {
+    filename: match.groups.suffix,
+    numberPrefix: parseFloat(match.groups.numberPrefix),
+  };
+};
+
 function generatePacksData(allContent) {
   const packsData = allContent["docusaurus-plugin-content-docs"].default.loadedVersions[0].docs
     .filter((doc) => {
@@ -54,8 +73,8 @@ const config = {
   organizationName: "Spectro Cloud", // Usually your GitHub org/user name.
   projectName: "Spectro Cloud docs", // Usually your repo name.
 
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenLinks: "log",
+  onBrokenMarkdownLinks: "log",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -64,6 +83,32 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+
+  staticDirectories: ["static", "static/assets/docs/images"],
+  headTags: [
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossorigin: "anonymous",
+      },
+    },
+    // {
+    //   tagName: "link",
+    //   attributes: {
+    //     rel: "preload",
+    //     href: "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap",
+    //     as: "style",
+    //     crossorigin: "anonymous",
+    //   },
+    // },
+  ],
+  stylesheets: [
+    {
+      href: "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap",
+    },
+  ],
   presets: [
     [
       "classic",
@@ -78,7 +123,7 @@ const config = {
           async sidebarItemsGenerator({ defaultSidebarItemsGenerator, ...args }) {
             const { docs } = args;
             const filteredDocs = docs.filter((doc) => {
-              return !doc.frontMatter.hiddenFromNav;
+              return true;
             });
             const sidebarItems = await defaultSidebarItemsGenerator({
               ...args,
@@ -86,11 +131,18 @@ const config = {
             });
             return sidebarItems;
           },
+          numberPrefixParser: numberPrefixParser,
 
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/spectrocloud/librarium",
+          lastVersion: "current",
+          versions: {
+            current: {
+              label: "Current",
+              path: "/",
+            },
+          },
         },
         sitemap: {
           changefreq: "weekly",
@@ -99,13 +151,15 @@ const config = {
           filename: "sitemap.xml",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve("./src/css/custom.scss"),
         },
       }),
     ],
   ],
 
   plugins: [
+    "docusaurus-plugin-sass",
+    process.env.NODE_ENV === "production" && "@docusaurus/plugin-debug",
     [
       "@docusaurus/plugin-content-docs",
       {
@@ -125,7 +179,7 @@ const config = {
           palette: {
             proxy: "https://api.spectrocloud.com",
             specPath: "palette-api/result.json",
-            outputDir: "docs/api-content/api-docs",
+            outputDir: "docs/api-content/api-docs/v1",
             downloadUrl:
               "https://github.com/spectrocloud/librarium/blob/master/content/api/palette-apis.json",
             sidebarOptions: {
@@ -147,6 +201,11 @@ const config = {
           const packsData = generatePacksData(allContent);
           setGlobalData({ integrations: integrationsData, packs: packsData });
         },
+      };
+    },
+    async function plugiParseApiDocs(context, options) {
+      return {
+        name: "plugin-api-docs",
       };
     },
     [
@@ -172,12 +231,12 @@ const config = {
       },
     ],
     [require.resolve("docusaurus-plugin-image-zoom"), { id: "docusaurus-plugin-image-zoom" }],
-    [
-      "@docusaurus/plugin-client-redirects",
-      {
-        redirects: [...redirects],
-      },
-    ],
+    // [
+    //   "@docusaurus/plugin-client-redirects",
+    //   {
+    //     redirects: [...redirects],
+    //   },
+    // ],
   ],
 
   themes: ["docusaurus-theme-openapi-docs"],
@@ -190,6 +249,10 @@ const config = {
           hideable: true,
         },
       },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 6,
+      },
       // Replace with your project's social card
       image: "img/logo_landscape_for_white.png",
       navbar: {
@@ -199,16 +262,29 @@ const config = {
           src: "img/logo_landscape_for_white.png",
         },
         items: [
-          { to: "/", label: "Docs", position: "right", activeBaseRegex: "^(?!/api/).*$" },
-          { to: "/api/introduction", label: "API", position: "right" },
+          { to: "/", label: "Docs", position: "left", activeBaseRegex: "^(?!/api/).*$" },
+          { to: "/api/v1/introduction", label: "API", position: "left" },
+          {
+            type: "docsVersionDropdown",
+            position: "right",
+            dropdownItemsAfter: [],
+            dropdownActiveClassDisabled: true,
+          },
+          {
+            href: "https://github.com/facebook/docusaurus",
+            position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
+          },
         ],
+        hideOnScroll: true,
       },
       algolia: {
         // The application ID provided by Algolia
         appId: "YIQEK8ZLC9",
 
         // Public API key: it is safe to commit it
-        apiKey: "994024f3176ed622d498fa2b3db874d9",
+        apiKey: "e588846e69b069e914de1aaea3c50975",
 
         indexName: "prod",
 
@@ -237,6 +313,17 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         additionalLanguages: ["bash", "json", "powershell", "hcl"],
+        magicComments: [
+          {
+            className: "theme-code-block-highlighted-line",
+            line: "highlight-next-line",
+            block: { start: "highlight-start", end: "highlight-end" },
+          },
+          {
+            className: "code-block-error-line",
+            line: "This will error",
+          },
+        ],
       },
       zoom: {
         selector: ".markdown :not(em) > img",

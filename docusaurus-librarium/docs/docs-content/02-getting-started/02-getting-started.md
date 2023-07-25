@@ -1,9 +1,9 @@
 ---
 title: "Getting Started"
 metaTitle: "Getting Started"
-metaDescription: "Spectro Cloud Getting Started"
-hideToC: false
-fullWidth: false
+description: "Spectro Cloud Getting Started"
+hide_table_of_contents: false
+
 sidebar_custom_props:
     icon: "overview"
 ---

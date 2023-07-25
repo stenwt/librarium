@@ -1,9 +1,9 @@
 ---
 title: "How to"
 metaTitle: "Get started with a quick Kubernetes How-to"
-metaDescription: "Kubernetes School with How to"
-hideToC: false
-fullWidth: false
+description: "Kubernetes School with How to"
+hide_table_of_contents: false
+
 hiddenFromNav: false
 sidebar_custom_props:
     icon: "book"

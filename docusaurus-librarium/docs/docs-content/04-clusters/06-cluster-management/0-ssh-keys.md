@@ -1,9 +1,9 @@
 ---
 title: "SSH Keys"
 metaTitle: "SSH Keys"
-metaDescription: "Learn how to create and manage SSH keys in Palette."
-hideToC: false
-fullWidth: false
+description: "Learn how to create and manage SSH keys in Palette."
+hide_table_of_contents: false
+
 ---
 
 

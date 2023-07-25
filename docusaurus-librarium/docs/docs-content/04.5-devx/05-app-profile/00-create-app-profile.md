@@ -1,9 +1,9 @@
 ---
 title: "Create an App Profile"
 metaTitle: "Learn how to create an App Profile"
-metaDescription: "This document provides guidance on how to create a Palette App Profile"
-hideToC: false
-fullWidth: false
+description: "This document provides guidance on how to create a Palette App Profile"
+hide_table_of_contents: false
+
 ---
 
 

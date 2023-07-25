@@ -1,9 +1,9 @@
 ---
 title: "Pause and Resume Virtual Clusters"
 metaTitle: "Pause and Resume Virtual Clusters"
-metaDescription: "Learn how to pause and resume Palette Virtual Clusters."
-hideToC: false
-fullWidth: false
+description: "Learn how to pause and resume Palette Virtual Clusters."
+hide_table_of_contents: false
+
 ---
 
 

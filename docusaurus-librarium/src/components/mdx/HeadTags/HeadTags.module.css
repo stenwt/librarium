@@ -6,15 +6,8 @@
 .header > a {
     visibility: hidden;
     margin-left: 10px;
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.85);
 }
 
 .header:hover > a {
     visibility: visible;
-}
-
-.header > a:hover {
-    color: rgba(0, 0, 0, 0.85);
-    text-decoration: underline;
 }

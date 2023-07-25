@@ -1,10 +1,10 @@
 ---
 title: "Network Ports"
 metaTitle: "Network Communication and Ports Management Platform on Prem"
-metaDescription: "Port-Direction-Purpose Management Platform and Workload Clusters"
+description: "Port-Direction-Purpose Management Platform and Workload Clusters"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
  
 

@@ -1,9 +1,9 @@
 ---
 title: "Create and Manage GCP GKE Cluster"
 metaTitle: "Create and Manage GKE IaaS Cluster"
-metaDescription: "Learn how to add and manage a GKE cluster deployed to GCP with Palette."
-hideToC: false
-fullWidth: false
+description: "Learn how to add and manage a GKE cluster deployed to GCP with Palette."
+hide_table_of_contents: false
+
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Create Cluster Definition"
 metaTitle: "Create Cluster Definition"
-metaDescription: "Define your Edge cluster using the Edge hosts that are registered and available."
-hideToC: false
-fullWidth: false
+description: "Define your Edge cluster using the Edge hosts that are registered and available."
+hide_table_of_contents: false
+
 ---
 
 

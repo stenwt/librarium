@@ -1,10 +1,10 @@
 ---
 title: "FIPS Compliance"
 metaTitle: "Certification of FIPS Compliance"
-metaDescription: "Palette is FIPS certificated. Read to learn more about Palette and its certification of FIPS Compliance"
+description: "Palette is FIPS certificated. Read to learn more about Palette and its certification of FIPS Compliance"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

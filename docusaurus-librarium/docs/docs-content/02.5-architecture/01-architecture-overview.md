@@ -1,10 +1,9 @@
 ---
 title: "Overview"
 metaTitle: "Spectro Cloud Architecture"
-metaDescription: "Spectro Cloud Architecture Overview"
+description: "Spectro Cloud Architecture Overview"
 icon: ""
-hideToC: true
-fullWidth: false
+hide_table_of_contents: true
 ---
 
 

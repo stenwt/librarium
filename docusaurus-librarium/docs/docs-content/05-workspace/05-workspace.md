@@ -1,9 +1,9 @@
 ---
 title: "Workspaces"
 metaTitle: "Creating Workspaces for Spectro Cloud Clusters"
-metaDescription: "The methods of creating Workspaces"
-hideToC: false
-fullWidth: false
+description: "The methods of creating Workspaces"
+hide_table_of_contents: false
+
 sidebar_custom_props:
     icon: "workspaces"
 ---

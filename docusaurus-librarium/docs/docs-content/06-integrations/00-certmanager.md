@@ -1,10 +1,11 @@
 ---
 title: 'cert-manager'
 metaTitle: 'cert-manager'
-metaDescription: 'cert-manager Security pack in Spectro Cloud'
+description: 'cert-manager Security pack in Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
 category: ['security']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.dev.spectrocloud.com/v1/certmanager/blobs/sha256:7882e13d7056781a0195ec15e3b9fa5d4b4bb7f8b4e2c32cc5e254e2295c6a16?type=image/png'
 ---
 

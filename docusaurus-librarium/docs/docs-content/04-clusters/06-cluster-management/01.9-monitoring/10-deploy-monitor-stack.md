@@ -1,7 +1,7 @@
 ---
 title: 'Deploy Monitoring Stack'
 metaTitle: 'Deploy Monitoring Stack'
-metaDescription: 'Learn how to deploy a monitoring stack in your Palette environment.'
+description: 'Learn how to deploy a monitoring stack in your Palette environment.'
 hiddenFromNav: false
 ---
 

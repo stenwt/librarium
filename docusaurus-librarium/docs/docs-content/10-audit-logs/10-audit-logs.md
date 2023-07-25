@@ -1,9 +1,9 @@
 ---
 title: "Audit Logs"
 metaTitle: "Spectro Cloud user audit logs"
-metaDescription: "Spectro Cloud logs for every event occurring under a user for every Kubernetes cluster"
-hideToC: false
-fullWidth: false
+description: "Spectro Cloud logs for every event occurring under a user for every Kubernetes cluster"
+hide_table_of_contents: false
+
 sidebar_custom_props:
     icon: "admin"
 ---

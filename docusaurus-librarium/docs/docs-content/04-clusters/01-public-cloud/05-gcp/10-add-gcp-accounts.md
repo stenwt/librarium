@@ -1,9 +1,9 @@
 ---
 title: "Register and Manage GCP Accounts"
 metaTitle: "Add a GCP Account to Palette"
-metaDescription: "Learn how to add a GCP account to Palette."
-hideToC: false
-fullWidth: false
+description: "Learn how to add a GCP account to Palette."
+hide_table_of_contents: false
+
 ---
 
 

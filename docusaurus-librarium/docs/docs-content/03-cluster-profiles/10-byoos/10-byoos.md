@@ -1,10 +1,10 @@
 ---
 title: "Bring Your Own OS (BYOOS)"
 metaTitle: "Bring Your Own OS (BYOOS)"
-metaDescription: "Learn how to use your own OS images with a cluster profile"
+description: "Learn how to use your own OS images with a cluster profile"
 icon: ""
-hideToC: true
-fullWidth: false
+hide_table_of_contents: true
+
 ---
 
 # Overview

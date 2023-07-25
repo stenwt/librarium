@@ -1,10 +1,11 @@
 ---
 title: 'KubeVirt'
 metaTitle: 'KubeVirt'
-metaDescription: 'Choosing KubeVirt within the Palette console'
+description: 'Choosing KubeVirt within the Palette console'
 hiddenFromNav: true
 type: "integration"
 category: ['system app']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.spectrocloud.com/v1/kubevirt/blobs/sha256:185e7a7658c05ab478f2822b080a7e21da9113b4a8bf5fb7fb3338d9a5796eed?type=image/png'
 ---
 

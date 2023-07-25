@@ -1,10 +1,10 @@
 ---
 title: "Adding a Workspace"
 metaTitle: "Adding a workspace"
-metaDescription: "How to create multi-cluster workspace in Palette"
+description: "How to create multi-cluster workspace in Palette"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

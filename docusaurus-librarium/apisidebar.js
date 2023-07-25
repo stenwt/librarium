@@ -27,17 +27,17 @@ module.exports = {
     },
     {
       type: "doc",
-      id: "introduction",
+      id: "v1/introduction",
       label: "Introduction",
     },
     {
       type: "doc",
-      id: "samples",
+      id: "v1/samples",
       label: "Example Usage",
     },
     {
       type: "doc",
-      id: "postman-collection",
+      id: "v1/postman-collection",
       label: "Postman collection",
     },
     {
@@ -49,7 +49,7 @@ module.exports = {
       },
       items: (() => {
         try {
-          return require("./docs/api-content/api-docs/sidebar.js");
+          return require("./docs/api-content/api-docs/v1/sidebar.js");
         } catch (error) {
           return [];
         }

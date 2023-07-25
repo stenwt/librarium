@@ -1,10 +1,11 @@
 ---
 title: 'aws-eks-oidc'
 metaTitle: 'aws-eks-oidc'
-metaDescription: 'aws-eks-oidc Authentication pack in Spectro Cloud'
+description: 'aws-eks-oidc Authentication pack in Spectro Cloud'
 hiddenFromNav: true
 type: "integration"
 category: ['authentication']
+sidebar_class_name: "hide_sidebar"
 logoUrl: 'https://registry.dev.spectrocloud.com/v1/aws-eks-oidc/blobs/sha256:f86813591b3b63b3afcf0a604a7c8c715660448585e89174908f3c6a421ad8d8?type=image/png'
 ---
 

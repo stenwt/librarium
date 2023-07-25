@@ -1,10 +1,10 @@
 ---
 title: "Spectro Cloud CLI Tool"
 metaTitle: "Spectro Cloud CLI Tool"
-metaDescription: "A reference sheet for the Spectro Cloud CLI tool"
+description: "A reference sheet for the Spectro Cloud CLI tool"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

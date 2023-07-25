@@ -1,9 +1,9 @@
 ---
 title: "Cluster Groups"
 metaTitle: "Palette Devx for Enterprise Developers"
-metaDescription: "Explore Palette Devx as Free Developer"
-hideToC: false
-fullWidth: false
+description: "Explore Palette Devx as Free Developer"
+hide_table_of_contents: false
+
 sidebar_custom_props:
     icon: "object-group"
 ---

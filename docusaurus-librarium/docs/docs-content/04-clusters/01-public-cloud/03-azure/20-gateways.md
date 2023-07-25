@@ -1,10 +1,10 @@
 ---
 title: "Self Hosted PCG"
 metaTitle: "Creating a Self Hosted PCG on Palette"
-metaDescription: "The methods of creating Self Hosted PCG on Palette for secured cluster deployment"
+description: "The methods of creating Self Hosted PCG on Palette for secured cluster deployment"
 icon: ""
-hideToC: false
-fullWidth: false
+hide_table_of_contents: false
+
 ---
 
 

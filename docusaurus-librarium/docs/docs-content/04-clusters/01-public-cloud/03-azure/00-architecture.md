@@ -1,9 +1,9 @@
 ---
 title: "Architecture"
 metaTitle: "Azure Architecture with Palette"
-metaDescription: "Learn about how Palette integrates with Azure and the architecture that powers the integration"
-hideToC: false
-fullWidth: false
+description: "Learn about how Palette integrates with Azure and the architecture that powers the integration"
+hide_table_of_contents: false
+
 ---
 
 # Azure IaaS Architecture

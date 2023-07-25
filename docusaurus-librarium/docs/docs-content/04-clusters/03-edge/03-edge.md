@@ -1,9 +1,9 @@
 ---
 title: "Edge"
 metaTitle: "Creating new clusters on Spectro Cloud"
-metaDescription: "The methods of creating clusters for a speedy deployment on any CSP"
-hideToC: false
-fullWidth: false
+description: "The methods of creating clusters for a speedy deployment on any CSP"
+hide_table_of_contents: false
+
 sidebar_custom_props:
     icon: "hdd"
 ---

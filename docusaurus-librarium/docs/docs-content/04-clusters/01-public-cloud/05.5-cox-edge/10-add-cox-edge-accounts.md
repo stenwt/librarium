@@ -1,9 +1,9 @@
 ---
 title: "Register and Manage Cox Edge Accounts"
 metaTitle: "Add a Cox Edge Account to Palette"
-metaDescription: "Learn how to add and manage a Cox Edge account in Palette."
-hideToC: false
-fullWidth: false
+description: "Learn how to add and manage a Cox Edge account in Palette."
+hide_table_of_contents: false
+
 ---
 
 
